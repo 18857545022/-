@@ -1,1 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2022-12-20T02:15:00.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.2.7" etag="W_V_yUFxiQgxwS44cdiE" type="github"><diagram id="_8cgpCyfqYICssYJPzsg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-20T02:50:52.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Xqr2857KFAGbn5AguztC" version="20.2.7" type="github">
+  <diagram id="_8cgpCyfqYICssYJPzsg" name="第 1 页">
+    <mxGraphModel dx="1422" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8wUDTte7K0LOaienTFmj-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="70" width="450" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wUDTte7K0LOaienTFmj-1" target="8wUDTte7K0LOaienTFmj-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="57" />
+              <mxPoint x="340" y="222" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-8" value="同步校验，异步导入&lt;br&gt;数据量：11W" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8wUDTte7K0LOaienTFmj-7">
+          <mxGeometry x="-0.6337" y="-4" relative="1" as="geometry">
+            <mxPoint x="24" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-1" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;P0-SPU费率导入&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry y="27" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wUDTte7K0LOaienTFmj-2" target="8wUDTte7K0LOaienTFmj-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="177" />
+              <mxPoint x="320" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-10" value="同步响应，异步更新&lt;br&gt;数据量 11w*M" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8wUDTte7K0LOaienTFmj-9">
+          <mxGeometry x="-0.5032" y="-4" relative="1" as="geometry">
+            <mxPoint x="23" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-2" value="P1-N年实现，N值可编辑" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry y="147" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wUDTte7K0LOaienTFmj-3" target="8wUDTte7K0LOaienTFmj-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="297" />
+              <mxPoint x="320" y="252" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-3" value="P2-行业TO1费率调整" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wUDTte7K0LOaienTFmj-4" target="8wUDTte7K0LOaienTFmj-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="417" />
+              <mxPoint x="340" y="267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-4" value="P2-投资结构调整" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry y="387" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wUDTte7K0LOaienTFmj-6" target="8wUDTte7K0LOaienTFmj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-20" value="每天凌晨时间点执行&lt;br&gt;数据量：100W*M" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8wUDTte7K0LOaienTFmj-16">
+          <mxGeometry x="-0.3608" relative="1" as="geometry">
+            <mxPoint x="19" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-6" value="SPU投资费率表&lt;br&gt;ts_spu_invest_rate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="207" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;同步响应，异步更新&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;数据量 11w*M&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="260" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-14" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;同步响应，异步更新&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;数据量 11w*M&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="380" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wUDTte7K0LOaienTFmj-15" target="8wUDTte7K0LOaienTFmj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-15" value="月度投资数据表(Mysql)&lt;br&gt;ts_item_conty_month_version_data" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="207" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-18" value="月度投资数据表(CK)&lt;br&gt;ts_item_conty_month_version_data" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="207" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-22" value="定时任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8wUDTte7K0LOaienTFmj-23" value="&lt;h1&gt;同步校验：上限是15W左右，先情况11W&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="-190" width="460" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
