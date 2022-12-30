@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-12-30T02:57:58.535Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Xham13f9GJEy8h_gmKf7" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-30T02:59:02.946Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="-Q7M0vOKJG7h3P5a26z4" version="20.7.4" type="github">
   <diagram id="-9A7kYpHKUTulMZGhSV-" name="第 1 页">
-    <mxGraphModel dx="3447" dy="3293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3341" dy="3237" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="b-EaO_gphr59r_hB4Qln-1" value="账号角色关联表&#xa;（amc_user_role）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="b-EaO_gphr59r_hB4Qln-1" value="账号角色关联表&#xa;（amc_user_role）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="630" y="700" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="b-EaO_gphr59r_hB4Qln-7" value="+roleId  角色id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="b-EaO_gphr59r_hB4Qln-1" vertex="1">
@@ -94,7 +94,7 @@
         <mxCell id="DFz6cAXaERrvMMqx2b_M-31" value="+groupStatus 用户组状态状态（0- 禁用 1-开启）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="DFz6cAXaERrvMMqx2b_M-25" vertex="1">
           <mxGeometry y="200" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DFz6cAXaERrvMMqx2b_M-47" value="账号信息表&#xa;（amc_group_dept）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="DFz6cAXaERrvMMqx2b_M-47" value="账号信息表&#xa;（amc_group_dept）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="60" y="510" width="280" height="260" as="geometry" />
         </mxCell>
         <mxCell id="DFz6cAXaERrvMMqx2b_M-48" value="+userCode 工号" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="DFz6cAXaERrvMMqx2b_M-47" vertex="1">
@@ -139,7 +139,7 @@
         <mxCell id="DFz6cAXaERrvMMqx2b_M-66" value="+ruleDimension 规则维度(0-无效 1-人[PS] &#xa;2-组织[OR] 3-区域[RE] 4-主体(AG)）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="DFz6cAXaERrvMMqx2b_M-61" vertex="1">
           <mxGeometry y="200" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DFz6cAXaERrvMMqx2b_M-70" value="角色资源规则表&#xa;（amc_role_resource）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="DFz6cAXaERrvMMqx2b_M-70" value="角色资源规则表&#xa;（amc_role_resource）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1384" y="700" width="270" height="140" as="geometry" />
         </mxCell>
         <mxCell id="DFz6cAXaERrvMMqx2b_M-71" value="+roleId 角色id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="DFz6cAXaERrvMMqx2b_M-70" vertex="1">
@@ -178,7 +178,7 @@
         <mxCell id="DFz6cAXaERrvMMqx2b_M-86" value="+roleRemark 角色备注" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="DFz6cAXaERrvMMqx2b_M-77" vertex="1">
           <mxGeometry y="270" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qNeUBVr2MfucxFmbfPrf-8" value="角色表&#xa;（amc_role）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="qNeUBVr2MfucxFmbfPrf-8" value="角色表&#xa;（amc_role）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1020" y="700" width="200" height="290" as="geometry" />
         </mxCell>
         <mxCell id="qNeUBVr2MfucxFmbfPrf-18" value="+id 角色id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="qNeUBVr2MfucxFmbfPrf-8" vertex="1">
@@ -226,7 +226,7 @@
         <mxCell id="qNeUBVr2MfucxFmbfPrf-29" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qNeUBVr2MfucxFmbfPrf-18" target="DFz6cAXaERrvMMqx2b_M-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qNeUBVr2MfucxFmbfPrf-30" value="资源规则表&#xa;（amc_resource）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="qNeUBVr2MfucxFmbfPrf-30" value="资源规则表&#xa;（amc_resource）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1880" y="450" width="340" height="560" as="geometry" />
         </mxCell>
         <mxCell id="qNeUBVr2MfucxFmbfPrf-31" value="+id  资源id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="qNeUBVr2MfucxFmbfPrf-30" vertex="1">
@@ -283,7 +283,7 @@
         <mxCell id="qNeUBVr2MfucxFmbfPrf-49" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DFz6cAXaERrvMMqx2b_M-72" target="qNeUBVr2MfucxFmbfPrf-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qNeUBVr2MfucxFmbfPrf-50" value="资源接口关联表&#xa;（amc_resource_interface）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="qNeUBVr2MfucxFmbfPrf-50" value="资源接口关联表&#xa;（amc_resource_interface）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="2480" y="955" width="340" height="240" as="geometry" />
         </mxCell>
         <mxCell id="qNeUBVr2MfucxFmbfPrf-52" value="+resId 资源id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="qNeUBVr2MfucxFmbfPrf-50" vertex="1">
@@ -301,7 +301,7 @@
         <mxCell id="qNeUBVr2MfucxFmbfPrf-78" value="+bizFieldLocation 业务字段位置&#xa;1- 在url参数后,即 @RequestParam&#xa;2- 在url中,即 @PathVariable&#xa;3- 在RequestBody中,当位置为3时,必须填写 JsonPath 正则&#xa;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="qNeUBVr2MfucxFmbfPrf-50" vertex="1">
           <mxGeometry y="170" width="340" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qNeUBVr2MfucxFmbfPrf-80" value="接口表&#xa;（amc_interface）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="qNeUBVr2MfucxFmbfPrf-80" value="接口表&#xa;（amc_interface）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="2968" y="950" width="340" height="260" as="geometry" />
         </mxCell>
         <mxCell id="qNeUBVr2MfucxFmbfPrf-81" value="+id 接口id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="qNeUBVr2MfucxFmbfPrf-80" vertex="1">
@@ -388,7 +388,7 @@
         <mxCell id="gPOwa_S4JHJm327Ccd25-19" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gPOwa_S4JHJm327Ccd25-9" target="qNeUBVr2MfucxFmbfPrf-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gPOwa_S4JHJm327Ccd25-20" value="规则表&#xa;amc_rule" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="gPOwa_S4JHJm327Ccd25-20" value="规则表&#xa;amc_rule" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2950" y="150" width="340" height="230" as="geometry" />
         </mxCell>
         <mxCell id="gPOwa_S4JHJm327Ccd25-21" value="+id 规则id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="gPOwa_S4JHJm327Ccd25-20">
@@ -412,7 +412,7 @@
         <mxCell id="gPOwa_S4JHJm327Ccd25-35" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gPOwa_S4JHJm327Ccd25-17" target="gPOwa_S4JHJm327Ccd25-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gPOwa_S4JHJm327Ccd25-36" value="鉴权字段表&#xa;amc_auth_field" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="gPOwa_S4JHJm327Ccd25-36" value="鉴权字段表&#xa;amc_auth_field" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2960" y="570" width="340" height="290" as="geometry" />
         </mxCell>
         <mxCell id="gPOwa_S4JHJm327Ccd25-37" value="+id 鉴权字段id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="gPOwa_S4JHJm327Ccd25-36">
