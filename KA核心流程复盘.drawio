@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T09:26:30.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="_RJia94CAdi80OHtHkVE" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T09:35:11.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="hPKSC6qlNyfkL7XkWldb" type="github">
   <diagram id="BEqY6qMiZc0pSCxEbsnE" name="第 1 页">
     <mxGraphModel dx="2261" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,7 +12,7 @@
             <mxPoint x="360" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1oIEDaCn8aH1IIvnRZRh-1" value="档期日历维护&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;平均18档/年&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="1oIEDaCn8aH1IIvnRZRh-1" value="档期日历维护&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;平均26档/年*3年&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="120" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1oIEDaCn8aH1IIvnRZRh-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1oIEDaCn8aH1IIvnRZRh-2" target="1oIEDaCn8aH1IIvnRZRh-5">
@@ -23,7 +23,7 @@
             <mxPoint x="330" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1oIEDaCn8aH1IIvnRZRh-2" value="全年档期维护&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;平均50SKU/档&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="1oIEDaCn8aH1IIvnRZRh-2" value="全年档期维护&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;平均25SKU/档&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="120" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1oIEDaCn8aH1IIvnRZRh-4" value="【1】基于【到店规则】拆分得到的【档期】到店目标数据&lt;br&gt;【2】获取父客户&amp;amp;SKU下工作日、双休日、节假日、会员日权重&lt;br&gt;【3】遍历档期起始、终止时间，给每一天赋权重，计算每天占比&lt;br&gt;【4】根据【档期】到店目标数据*到日占比计算获得到店到日数据" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -69,20 +69,8 @@
         <mxCell id="1oIEDaCn8aH1IIvnRZRh-11" value="【预算】&lt;br&gt;拆分到天" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="120" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1oIEDaCn8aH1IIvnRZRh-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1oIEDaCn8aH1IIvnRZRh-15" target="1oIEDaCn8aH1IIvnRZRh-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="1oIEDaCn8aH1IIvnRZRh-15" value="【预算】&lt;br&gt;锁定" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="120" y="1330" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1oIEDaCn8aH1IIvnRZRh-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1oIEDaCn8aH1IIvnRZRh-17" target="1oIEDaCn8aH1IIvnRZRh-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1oIEDaCn8aH1IIvnRZRh-17" value="【预测】&lt;br&gt;拆分到店" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1430" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1oIEDaCn8aH1IIvnRZRh-20" value="【预测】&lt;br&gt;拆分到日" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1oIEDaCn8aH1IIvnRZRh-26" value="【1】父客户下SKU&amp;amp;档期粒度目标数据&lt;br&gt;【2】父客户下不同门店的到店权重&lt;br&gt;【3】根据父客户下不同门店到店权重，计算出每个门店不同SKU下占比&lt;br&gt;【4】基于父客户下不同门店占比，计算【档期】到店目标数据" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="360" y="780" width="440" height="60" as="geometry" />
