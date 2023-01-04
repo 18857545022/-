@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T09:35:11.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="hPKSC6qlNyfkL7XkWldb" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T09:35:26.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="ZuZsklwWx186HSyLcS_V" type="github">
   <diagram id="BEqY6qMiZc0pSCxEbsnE" name="第 1 页">
     <mxGraphModel dx="2261" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -121,7 +121,7 @@
           <mxGeometry x="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1oIEDaCn8aH1IIvnRZRh-55" value="父客户*SKU*门店" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="315" width="240" height="30" as="geometry" />
+          <mxGeometry x="-220" y="315" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1oIEDaCn8aH1IIvnRZRh-56" value="父客户*SKU*门店*档期" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="380" y="700" width="390" height="30" as="geometry" />
