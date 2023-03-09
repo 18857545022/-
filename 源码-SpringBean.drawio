@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T02:29:19.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="5oIt41AWWKbQM2psG8bB" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-09T02:36:09.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="E5HK8ttc6nrX9iUn8yyX" version="21.0.2" type="github">
   <diagram id="OlfqImsbNMb45H6n4PX8" name="第 1 页">
-    <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -181,7 +181,7 @@
         <mxCell id="ik_k4gAjeatmCQZmZOk4-58" value="Bean 初始化完成阶段" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="150" y="1450" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ik_k4gAjeatmCQZmZOk4-61" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;AbstractAutowireCapableBeanFactory#&lt;/b&gt;applyBeanPostProcessorsAfterInitialization&lt;br&gt;方法，会去找寻所有BeanPostProcess实现，并逐一执行&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#b266ff&quot;&gt;BeanPostProcesso&lt;/font&gt;r&lt;/b&gt;#postProcessAfterInitialization&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;注意：其中有实现类：AnnotationAwareAspectJAutoProxyCreator，即为AOP原理&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="ik_k4gAjeatmCQZmZOk4-61" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;AbstractAutowireCapableBeanFactory#&lt;/b&gt;applyBeanPostProcessorsAfterInitialization&lt;br&gt;方法，会去找寻所有BeanPostProcess实现，并逐一执行&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#b266ff&quot;&gt;BeanPostProcesso&lt;/font&gt;r&lt;/b&gt;#postProcessAfterInitialization&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;注意：其中有实现类AnnotationAwareAspectJAutoProxyCreator进行代理对象生成返回，即为AOP原理&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="420" y="1330" width="460" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ik_k4gAjeatmCQZmZOk4-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ik_k4gAjeatmCQZmZOk4-63" target="ik_k4gAjeatmCQZmZOk4-65" edge="1">
