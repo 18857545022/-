@@ -1,1 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T01:45:57.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.6" etag="qn4v6JETXm2Rmf4y2uDn" type="github"><diagram name="第 1 页" id="9noEAw935UPwHtuChEoF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-15T02:09:16.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="qbsSVoBZuwIFM8m19Nlv" version="21.0.6" type="github">
+  <diagram name="第 1 页" id="9noEAw935UPwHtuChEoF">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-5" value="加密实现&lt;br&gt;用于使用Entity进行的增、查、改" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="nf7f2Seip-BSm0KD6jR_-3" target="nf7f2Seip-BSm0KD6jR_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nf7f2Seip-BSm0KD6jR_-3" target="nf7f2Seip-BSm0KD6jR_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-3" value="业务逻辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-4" value="用户信息表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-6" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="210" width="470" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nf7f2Seip-BSm0KD6jR_-7" target="nf7f2Seip-BSm0KD6jR_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-7" value="自定义入参拦截器&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;type=&amp;gt;ParameterHandler.class&lt;br&gt;method=&amp;gt;setParameters&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nf7f2Seip-BSm0KD6jR_-8" target="nf7f2Seip-BSm0KD6jR_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-8" value="通过反射获取ParameterHandler类中的&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;parameterObject&lt;/font&gt;(即mybatis方法入参)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nf7f2Seip-BSm0KD6jR_-10" target="nf7f2Seip-BSm0KD6jR_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-10" value="如果入参类有&lt;font color=&quot;#ff3333&quot;&gt;@EncryptDecryptClass&lt;/font&gt;&lt;br&gt;遍历解析字段&lt;font color=&quot;#ff3333&quot;&gt;@EncryptDecryptField&lt;/font&gt;&lt;br&gt;找到对应字段对原值加密覆盖" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="490" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nf7f2Seip-BSm0KD6jR_-14" target="nf7f2Seip-BSm0KD6jR_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-14" value="Mybatis其他逻辑执行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="415" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-16" value="查询SQL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="nf7f2Seip-BSm0KD6jR_-18" target="nf7f2Seip-BSm0KD6jR_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-18" value="业务逻辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="741" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="nf7f2Seip-BSm0KD6jR_-19" target="nf7f2Seip-BSm0KD6jR_-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-41" value="解密实现&lt;br&gt;用于使用注解Entity的查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nf7f2Seip-BSm0KD6jR_-30">
+          <mxGeometry x="-0.2471" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nf7f2Seip-BSm0KD6jR_-19" target="nf7f2Seip-BSm0KD6jR_-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-19" value="用户信息表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="741" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-20" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="330" width="470" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-29" value="结果数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="741" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nf7f2Seip-BSm0KD6jR_-32" target="nf7f2Seip-BSm0KD6jR_-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-32" value="自定义出参拦截器&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;type=&amp;gt;ResultSetHandler.class&lt;br&gt;method=&amp;gt;handleResultSets&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="350" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nf7f2Seip-BSm0KD6jR_-34" target="nf7f2Seip-BSm0KD6jR_-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-34" value="调用nvocation.proceed()&lt;br&gt;获取mybatis结果集&lt;br&gt;进行返回结果处理(list&amp;lt;ele&amp;gt; or ele)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="460" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nf7f2Seip-BSm0KD6jR_-38" target="nf7f2Seip-BSm0KD6jR_-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-38" value="如果入参类有&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;@EncryptDecryptClass&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;遍历解析字段&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;EncryptDecryptField&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;找到对应字段对原值加密覆盖" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="570" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-43" value="&lt;h1&gt;加密逻辑&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nf7f2Seip-BSm0KD6jR_-44" value="&lt;h1&gt;解密逻辑&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="741" y="80" width="190" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
