@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T03:34:56.457Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="13N_R9oIQp3ZecLBPcZZ" version="21.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-06T03:35:33.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="j37PKeRBY7cOeQE8vMMu" version="21.1.6" type="github">
   <diagram name="第 1 页" id="0GSHwEfm7-DHKQL5fRBT">
     <mxGraphModel dx="2087" dy="1758" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,8 +122,8 @@
         <mxCell id="4JRhX6lgXvvM5bHSWxXY-46" value="存储ThreadLocal中" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="660.5" y="-102" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4JRhX6lgXvvM5bHSWxXY-49" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;命题：SqlServer中表不停机迁移至Mysql&lt;/h1&gt;&lt;p&gt;1、通过Apollo实现上线后新表流量逐步增大分配&lt;/p&gt;&lt;p&gt;2、通过注解向ThradLocal中注入 MiexdXXXServiceImpl 中执行逻辑路由&lt;/p&gt;&lt;p&gt;3、通过Java实现+防腐层，实现上线后代码快速迭代&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;注：MiedXXXServiceImpl中会复用 MysqlXXXServiceImpl 和SqlServerXXXServiceImpl减少开发工作，并且会额外针对异步执行失败做操作指令的数据收集，用于后续补偿&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;数据迁移需要考虑三个阶段：&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;全量同步 =&amp;gt; 增量同步 =&amp;gt; 实时同步&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-369" y="-759" width="659" height="349" as="geometry" />
+        <mxCell id="4JRhX6lgXvvM5bHSWxXY-49" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;命题：SqlServer中表不停机迁移至Mysql&lt;/h1&gt;&lt;p&gt;1、通过Apollo实现上线后新表流量逐步增大分配&lt;/p&gt;&lt;p&gt;2、通过注解向ThradLocal中注入 MiexdXXXServiceImpl 中执行逻辑路由&lt;/p&gt;&lt;p&gt;3、通过Java实现+防腐层，实现上线后代码快速迭代&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;注：MiedXXXServiceImpl中会复用 MysqlXXXServiceImpl 和SqlServerXXXServiceImpl减少开发工作，并且会额外针对异步执行失败做操作指令的数据收集，用于后续补偿&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;数据迁移需要考虑三个阶段：&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;全量同步 =&amp;gt; 增量同步 =&amp;gt; 实时同步&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-375" y="-717" width="665" height="307" as="geometry" />
         </mxCell>
         <mxCell id="4JRhX6lgXvvM5bHSWxXY-52" value="所以，整体的实施流程如下：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-367" y="645" width="332" height="30" as="geometry" />
