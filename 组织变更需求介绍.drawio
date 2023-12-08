@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T06:25:07.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.1.5" etag="vQfy6RoUl0KHyWGnAt3j" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-08T10:00:18.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="nI-ZIJ0g393ldmT4ENkW" version="22.1.7" type="github">
   <diagram name="第 1 页" id="WvqQRma3N5nA3qjNvISH">
-    <mxGraphModel>
+    <mxGraphModel dx="1730" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="66wZoI4fhX7Pc3D_EZnd-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="400" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="66wZoI4fhX7Pc3D_EZnd-5" value="主数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="100" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="66wZoI4fhX7Pc3D_EZnd-6" value="只冗余&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;主数据编码&lt;/font&gt;&lt;/b&gt;的业务数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="230" width="100" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="66wZoI4fhX7Pc3D_EZnd-7" value="既冗余&lt;font color=&quot;#ff3333&quot;&gt;主数据编码&lt;/font&gt;，又冗余&lt;font color=&quot;#ff3333&quot;&gt;主数据其他属性&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="260" y="230" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="66wZoI4fhX7Pc3D_EZnd-8" value="等待上游&lt;br&gt;同步完成新号" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
