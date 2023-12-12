@@ -1,9 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T06:26:32.084Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.1.7" etag="S1Xmf88AjYEBlfA7lSV8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T06:26:47.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="PYvq4PRGzwVtIDarjvmL" version="22.1.7" type="github">
   <diagram name="第 1 页" id="QjhJOUuIYIkFcDsc6vxH">
-    <mxGraphModel>
+    <mxGraphModel dx="2137" dy="-344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="y6LSva5PEFhoxggRZn5w-1" value="线上SF" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="540" y="1620" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-2" value="线上SF中间层" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1620" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-3" value="本地SF中间层" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1620" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-4" value="Old -Oracel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1680" width="70" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-5" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="1698" as="sourcePoint" />
+            <mxPoint x="360" y="1697.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-6" value="12-31 16:00&amp;nbsp; &lt;font color=&quot;#ff3333&quot;&gt;停止线上SF中间层拉数&lt;/font&gt;定时任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y6LSva5PEFhoxggRZn5w-5">
+          <mxGeometry x="-0.5807" y="1" relative="1" as="geometry">
+            <mxPoint x="16" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-7" value="线上调整" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1736" width="70" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-8" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="1750" as="sourcePoint" />
+            <mxPoint x="555" y="1753.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-9" value="12-31 16:10 &lt;font color=&quot;#ff3333&quot;&gt;线上SF开始岗位/组织/人员 最新数据调整&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y6LSva5PEFhoxggRZn5w-8">
+          <mxGeometry x="-0.5807" y="1" relative="1" as="geometry">
+            <mxPoint x="15" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="y6LSva5PEFhoxggRZn5w-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="1800" as="sourcePoint" />
+            <mxPoint x="-160" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-11" value="12-31 18:00 线上SF 岗位/组织/人员 最新数据调整完毕" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y6LSva5PEFhoxggRZn5w-10">
+          <mxGeometry x="0.7615" y="-1" relative="1" as="geometry">
+            <mxPoint x="82" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="y6LSva5PEFhoxggRZn5w-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="1960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-13" value="12-31 20:30 将线上SF最新数据同步到 New-Oracel库中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y6LSva5PEFhoxggRZn5w-12">
+          <mxGeometry x="0.7559" y="3" relative="1" as="geometry">
+            <mxPoint x="105" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-14" value="New -Oracel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1870" width="70" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="y6LSva5PEFhoxggRZn5w-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="1900" as="sourcePoint" />
+            <mxPoint x="-70" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-16" value="12-31 18:10 &lt;font color=&quot;#ff3333&quot;&gt;本地用新Oracel库启动服务，同步SF最新数据&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y6LSva5PEFhoxggRZn5w-15">
+          <mxGeometry x="-0.3298" y="-2" relative="1" as="geometry">
+            <mxPoint x="35" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-17" value="线上SF接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1912" width="70" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="y6LSva5PEFhoxggRZn5w-14" target="y6LSva5PEFhoxggRZn5w-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="1920" as="sourcePoint" />
+            <mxPoint x="480" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.988;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="y6LSva5PEFhoxggRZn5w-17" target="y6LSva5PEFhoxggRZn5w-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-20" value="New -Oracel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2050" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="y6LSva5PEFhoxggRZn5w-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="2080" as="sourcePoint" />
+            <mxPoint x="-80" y="2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6LSva5PEFhoxggRZn5w-22" value="1-1 00:00&amp;nbsp; 线上SF中间层修改配置,&lt;font color=&quot;#ff3333&quot;&gt;数据库指向NewOracel&lt;/font&gt;，对外提供服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y6LSva5PEFhoxggRZn5w-21">
+          <mxGeometry x="-0.6592" y="-1" relative="1" as="geometry">
+            <mxPoint x="112" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
