@@ -1,9 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T11:06:40.410Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.11" etag="knHE3Gdf2C9NJtqmmT_p" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-20T11:06:44.513Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="0FVDsfewNM1Kkq7reyUR" version="22.1.11" type="github">
   <diagram name="第 1 页" id="7C9gG-x3ZE2vfiknPF9B">
-    <mxGraphModel>
+    <mxGraphModel dx="1310" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xni9AsoQfbjo8UiSi0Ou-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="280" y="50" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="xni9AsoQfbjo8UiSi0Ou-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xni9AsoQfbjo8UiSi0Ou-5" target="xni9AsoQfbjo8UiSi0Ou-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xni9AsoQfbjo8UiSi0Ou-3" value="内网环境地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xni9AsoQfbjo8UiSi0Ou-2">
+          <mxGeometry x="-0.2693" relative="1" as="geometry">
+            <mxPoint x="51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xni9AsoQfbjo8UiSi0Ou-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xni9AsoQfbjo8UiSi0Ou-5" target="xni9AsoQfbjo8UiSi0Ou-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="51" y="327" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xni9AsoQfbjo8UiSi0Ou-5" value="测试/开发人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xni9AsoQfbjo8UiSi0Ou-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="480" y="50" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="xni9AsoQfbjo8UiSi0Ou-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="xni9AsoQfbjo8UiSi0Ou-9" target="xni9AsoQfbjo8UiSi0Ou-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xni9AsoQfbjo8UiSi0Ou-8" value="内网环境地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xni9AsoQfbjo8UiSi0Ou-7">
+          <mxGeometry x="-0.0491" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xni9AsoQfbjo8UiSi0Ou-9" value="&lt;br&gt;B系统" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="297" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xni9AsoQfbjo8UiSi0Ou-10" value="&lt;br&gt;A系统" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
