@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T11:55:19.780Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.11" etag="9-0dGztCMI7kYKkDo7F1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-20T11:55:27.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="bpnZH-nj-ffypA8zAxCB" version="22.1.11" type="github">
   <diagram name="第 1 页" id="3oLM7Pj3W61yRX2g5Aef">
-    <mxGraphModel>
+    <mxGraphModel dx="2137" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zSZ8GKRPfNmFv1LyPpuw-1" value="同步前准备阶段" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="160" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ8GKRPfNmFv1LyPpuw-2" value="配置准备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="230" width="30" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ8GKRPfNmFv1LyPpuw-3" value="定时任务关闭" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="230" width="30" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ8GKRPfNmFv1LyPpuw-4" value="服务发布" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="230" width="30" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ8GKRPfNmFv1LyPpuw-5" value="线上环境恢复" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="220" width="30" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ8GKRPfNmFv1LyPpuw-6" value="同步阶段" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="160" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ8GKRPfNmFv1LyPpuw-7" value="收尾阶段" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ8GKRPfNmFv1LyPpuw-8" value="数据备份" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="240" width="30" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="zSZ8GKRPfNmFv1LyPpuw-9" value="线上部分问题数据手动调整" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="30" height="240" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
