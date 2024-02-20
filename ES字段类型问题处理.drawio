@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T06:55:27.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" version="22.1.20" etag="T-XP9XJqXcvH_pvrePtz" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T07:04:09.003Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="loYBA3xs9C4SSOvCJI_T" version="22.1.20" type="github">
   <diagram name="第 1 页" id="k2K2BacnFWVTWWxh2E1V">
-    <mxGraphModel>
+    <mxGraphModel dx="1853" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hpwQwDmwqJIpBTNwLYX5-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hpwQwDmwqJIpBTNwLYX5-1" target="hpwQwDmwqJIpBTNwLYX5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwQwDmwqJIpBTNwLYX5-1" value="创建新index" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwQwDmwqJIpBTNwLYX5-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hpwQwDmwqJIpBTNwLYX5-6" target="hpwQwDmwqJIpBTNwLYX5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwQwDmwqJIpBTNwLYX5-6" value="执行reIndex" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-265" y="497" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwQwDmwqJIpBTNwLYX5-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hpwQwDmwqJIpBTNwLYX5-8" target="hpwQwDmwqJIpBTNwLYX5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwQwDmwqJIpBTNwLYX5-8" value="将旧index 下线" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-265" y="633" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwQwDmwqJIpBTNwLYX5-10" value="新index 创建别名" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-265" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwQwDmwqJIpBTNwLYX5-12" value="新index名称：旧index名称_new&lt;br&gt;注意：新index中需要将错误的字段类型纠正" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="360" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwQwDmwqJIpBTNwLYX5-13" value="执行reIndex，source=旧index，target=新index&lt;br&gt;ES服务器接收请求后，会以scroll从source中获取数据写入target中，完成数据的写入重建" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="497" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwQwDmwqJIpBTNwLYX5-14" value="旧index 不删除，先将其下线，用于后续回滚&lt;br&gt;注意：如果后续回滚，可以重新开启 旧index" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="633" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwQwDmwqJIpBTNwLYX5-15" value="给新index创建别名，指向 旧index名称&lt;br&gt;注意：如果后续回滚，需要删除别名" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="770" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hpwQwDmwqJIpBTNwLYX5-16" value="重要步骤" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.8;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-330" y="440" width="100" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
