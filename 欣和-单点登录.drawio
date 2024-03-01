@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T08:22:31.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="cvbZo_b9pkeOav8-dz4B" version="23.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-01T08:54:38.563Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="SquWWppd26ANE-5wBCVd" version="23.1.8" type="github">
   <diagram name="第 1 页" id="gkTEYUcJrN9gBIkVht4z">
-    <mxGraphModel dx="2939" dy="2434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2065" dy="1910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,19 +29,19 @@
           <mxGeometry x="-210" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-44" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="520" y="-200" width="440" height="570" as="geometry" />
+          <mxGeometry x="490" y="-200" width="470" height="570" as="geometry" />
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GJ4CANVCQQ8pxDGnjlaz-44">
-          <mxGeometry width="440" height="570" as="geometry" />
+          <mxGeometry width="470" height="570" as="geometry" />
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-4" value="&lt;ol&gt;&lt;li&gt;白名单拦截 - 如果Token为白名单Token，直接校验成功&lt;/li&gt;&lt;li&gt;JWT秘钥校验 - 秘钥解密Token，看是否为DF颁发Token&lt;/li&gt;&lt;li&gt;过期校验 - 通过Redis中缓存判断Token过期&lt;/li&gt;&lt;li&gt;进行Token时间延续动作，并返回校验成功&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="GJ4CANVCQQ8pxDGnjlaz-44">
-          <mxGeometry y="40" width="440" height="60" as="geometry" />
+          <mxGeometry y="40" width="470" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-10" value="是否白名单Token" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="GJ4CANVCQQ8pxDGnjlaz-44">
-          <mxGeometry x="196" y="150" width="120" height="50" as="geometry" />
+          <mxGeometry x="209.36363636363635" y="150" width="128.1818181818182" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-12" value="JWT秘钥校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="GJ4CANVCQQ8pxDGnjlaz-44">
-          <mxGeometry x="196" y="240" width="120" height="50" as="geometry" />
+          <mxGeometry x="209.36363636363635" y="240" width="128.1818181818182" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GJ4CANVCQQ8pxDGnjlaz-44" source="GJ4CANVCQQ8pxDGnjlaz-10" target="GJ4CANVCQQ8pxDGnjlaz-12">
           <mxGeometry relative="1" as="geometry" />
@@ -52,7 +52,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-15" value="过期校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="GJ4CANVCQQ8pxDGnjlaz-44">
-          <mxGeometry x="196" y="320" width="120" height="50" as="geometry" />
+          <mxGeometry x="209.36363636363635" y="320" width="128.1818181818182" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GJ4CANVCQQ8pxDGnjlaz-44" source="GJ4CANVCQQ8pxDGnjlaz-12" target="GJ4CANVCQQ8pxDGnjlaz-15">
           <mxGeometry relative="1" as="geometry" />
@@ -63,7 +63,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-18" value="Redis中Token缓存有效期刷新" style="whiteSpace=wrap;html=1;" vertex="1" parent="GJ4CANVCQQ8pxDGnjlaz-44">
-          <mxGeometry x="196" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="209.36363636363635" y="410" width="128.1818181818182" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GJ4CANVCQQ8pxDGnjlaz-44" source="GJ4CANVCQQ8pxDGnjlaz-15" target="GJ4CANVCQQ8pxDGnjlaz-18">
           <mxGeometry relative="1" as="geometry" />
@@ -74,17 +74,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-28" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Token校验&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GJ4CANVCQQ8pxDGnjlaz-44">
-          <mxGeometry x="120" width="144" height="10" as="geometry" />
+          <mxGeometry x="128.1818181818182" width="153.8181818181818" height="10" as="geometry" />
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-29" value="True" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="GJ4CANVCQQ8pxDGnjlaz-44">
-          <mxGeometry x="231" y="500" width="50" height="50" as="geometry" />
+          <mxGeometry x="246.75" y="500" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="GJ4CANVCQQ8pxDGnjlaz-44" source="GJ4CANVCQQ8pxDGnjlaz-10" target="GJ4CANVCQQ8pxDGnjlaz-29">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="396" y="175" as="targetPoint" />
+            <mxPoint x="423" y="175" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="390" y="175" />
-              <mxPoint x="390" y="525" />
+              <mxPoint x="416.59090909090907" y="175" />
+              <mxPoint x="416.59090909090907" y="525" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -97,7 +97,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-30" value="校验失败" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="GJ4CANVCQQ8pxDGnjlaz-44">
-          <mxGeometry x="30" y="240" width="50" height="50" as="geometry" />
+          <mxGeometry x="32.04545454545455" y="240" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="GJ4CANVCQQ8pxDGnjlaz-44" source="GJ4CANVCQQ8pxDGnjlaz-12" target="GJ4CANVCQQ8pxDGnjlaz-30">
           <mxGeometry relative="1" as="geometry" />
@@ -124,7 +124,7 @@
           <mxGeometry x="-10" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-90" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="500" y="420" width="1120" height="600" as="geometry" />
+          <mxGeometry x="490" y="420" width="1120" height="600" as="geometry" />
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-89" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GJ4CANVCQQ8pxDGnjlaz-90">
           <mxGeometry width="1120" height="600" as="geometry" />
