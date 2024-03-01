@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T08:22:14.782Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="Kk51MUbM5OTrtPttzqZy" version="23.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-01T08:22:26.684Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="A2gfcr1RbzPD68kEG6po" version="23.1.8" type="github">
   <diagram name="第 1 页" id="gkTEYUcJrN9gBIkVht4z">
     <mxGraphModel dx="2065" dy="1910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GJ4CANVCQQ8pxDGnjlaz-1" target="GJ4CANVCQQ8pxDGnjlaz-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GJ4CANVCQQ8pxDGnjlaz-1" value="入口：&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;/v1/oauth2/checkAccessTokenV2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GJ4CANVCQQ8pxDGnjlaz-1" value="鉴权接口：&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;/v1/oauth2/checkAccessTokenV2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GJ4CANVCQQ8pxDGnjlaz-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GJ4CANVCQQ8pxDGnjlaz-20" target="GJ4CANVCQQ8pxDGnjlaz-25">
