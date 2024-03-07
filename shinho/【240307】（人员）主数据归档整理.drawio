@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T09:30:32.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="YoNl_IuO7_q3Vr9EHZC6" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T09:34:32.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="2acz6TZDvky5XsnOawFR" version="24.0.2" type="github">
   <diagram name="第 1 页" id="B5LX5rfYJhsngNCD7u-h">
     <mxGraphModel dx="978" dy="1781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
             <mxPoint x="-2" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FaN1qW55NtizGSfyZZEe-21" value="SF外采系统&lt;br&gt;（内部人员）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="FaN1qW55NtizGSfyZZEe-21" value="SF外采系统&lt;br&gt;（内部人员）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="780" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FaN1qW55NtizGSfyZZEe-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1" edge="1" parent="1" source="FaN1qW55NtizGSfyZZEe-22" target="FaN1qW55NtizGSfyZZEe-35">
@@ -68,7 +68,7 @@
         <mxCell id="FaN1qW55NtizGSfyZZEe-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" edge="1" parent="1" source="FaN1qW55NtizGSfyZZEe-22" target="FaN1qW55NtizGSfyZZEe-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FaN1qW55NtizGSfyZZEe-22" value="MHR&lt;br&gt;（美顾人员）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="FaN1qW55NtizGSfyZZEe-22" value="MHR&lt;br&gt;（美顾人员）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="780" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FaN1qW55NtizGSfyZZEe-24" value="&lt;b&gt;技术中台-企微通讯录&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -103,6 +103,9 @@
         </mxCell>
         <mxCell id="FaN1qW55NtizGSfyZZEe-48" value="C4I" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="1460" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaN1qW55NtizGSfyZZEe-52" value="Dcloud&lt;br&gt;（经销商）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
