@@ -1,9 +1,160 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T01:42:40.804Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.0.2" etag="Rvx096qJ58L7iacqJeZs" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T05:33:40.794Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="knSyMqA_zb8rmgq6vtFq" version="24.0.2" type="github">
   <diagram name="第 1 页" id="JXxv0Dxd8Im3p1qoa8fC">
-    <mxGraphModel>
+    <mxGraphModel dx="2062" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ELUkevsG8WY99LBRYl7G-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="400" width="930" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-1" value="CRM" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="697.5" width="195" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-2" value="DCloud" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="700" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ELUkevsG8WY99LBRYl7G-3" target="ELUkevsG8WY99LBRYl7G-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-3" value="基于AIO创建" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="105" y="710" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ELUkevsG8WY99LBRYl7G-4" target="ELUkevsG8WY99LBRYl7G-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="805.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-19" value="Sibber" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ELUkevsG8WY99LBRYl7G-18">
+          <mxGeometry x="0.207" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-4" value="非AIO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="364" y="780" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-6" value="SFA" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="770" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-11" value="其他" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="770" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ELUkevsG8WY99LBRYl7G-12" target="ELUkevsG8WY99LBRYl7G-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-12" value="AIO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="710" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-17" value="非AIO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="105" y="830" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-20" value="SFA" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-23" value="非AIO未绑定" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="374" y="880" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-24" value="非AIO已绑定" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="450" y="880" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-25" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="500" y="620" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-26" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-25">
+          <mxGeometry width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-27" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-26">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-28" value="Dcloud" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-26">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-29" value="CRM" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-26">
+          <mxGeometry x="120" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-25">
+          <mxGeometry y="40" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-31" value="第一次" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-30">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-32" value="D" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-30">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-33" value="C" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-30">
+          <mxGeometry x="120" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-34" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-25">
+          <mxGeometry y="80" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-35" value="第二次" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-34">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-36" value="D" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-34">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-37" value="E" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-34">
+          <mxGeometry x="120" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-38" value="XXXX(N+1)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="270" y="440" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-39" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-38">
+          <mxGeometry y="30" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-40" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-39">
+          <mxGeometry width="76" height="30" as="geometry">
+            <mxRectangle width="76" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-41" value="（CRM）XXX超市" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-39">
+          <mxGeometry x="76" width="264" height="30" as="geometry">
+            <mxRectangle width="264" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-42" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-38">
+          <mxGeometry y="60" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-43" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-42">
+          <mxGeometry width="76" height="30" as="geometry">
+            <mxRectangle width="76" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-44" value="（非AIO - XXXX）XXX超市" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-42">
+          <mxGeometry x="76" width="264" height="30" as="geometry">
+            <mxRectangle width="264" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-45" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-38">
+          <mxGeometry y="90" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-46" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-45">
+          <mxGeometry width="76" height="30" as="geometry">
+            <mxRectangle width="76" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELUkevsG8WY99LBRYl7G-47" value="XXX超市" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="ELUkevsG8WY99LBRYl7G-45">
+          <mxGeometry x="76" width="264" height="30" as="geometry">
+            <mxRectangle width="264" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
