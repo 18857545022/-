@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T07:29:58.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="nqZDQBB8sZhtdg1ib_ME" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T07:32:47.443Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="IYZt3XlqCUfl3lkiYwr6" version="24.0.5" type="github">
   <diagram name="第 1 页" id="fpY8yn4sJWRvHEiPrYGF">
-    <mxGraphModel dx="2000" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1636" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -174,6 +174,27 @@
         </mxCell>
         <mxCell id="G3k9K2cqqkwImt9SPJEE-122" value="Prometheus+Grafana 监控看板" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="-472" y="780" width="261" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G3k9K2cqqkwImt9SPJEE-123" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="565" width="380" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="G3k9K2cqqkwImt9SPJEE-124" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="602.5" width="195" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="G3k9K2cqqkwImt9SPJEE-125" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="60" y="602.5" width="195" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="G3k9K2cqqkwImt9SPJEE-126" value="CRM系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-12.5" y="615" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3k9K2cqqkwImt9SPJEE-127" value="Dcloud系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="615" width="72.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3k9K2cqqkwImt9SPJEE-129" value="SFA&lt;br&gt;门店" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="645" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="G3k9K2cqqkwImt9SPJEE-130" value="SFA&lt;br&gt;门店" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="700" width="45" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
