@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T14:46:51.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="bx3wr1DM7Dw8GZD4AfKM" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-15T14:48:20.612Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="pfVVDbhJ8FIVHiEoT3yB" version="24.0.7" type="github">
   <diagram name="第 1 页" id="Gs3_jzng7EKterP3eEq9">
     <mxGraphModel dx="1893" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,8 +239,22 @@
             <mxPoint x="230" y="950.3636363636363" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-129" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XSxpiQSVj5RqR9Qi4vsM-98" target="XSxpiQSVj5RqR9Qi4vsM-128">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-210" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-98" value="区域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-90" y="940" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-127" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XSxpiQSVj5RqR9Qi4vsM-96" target="XSxpiQSVj5RqR9Qi4vsM-122">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-170" y="670" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-100" value="组织" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-90" y="880" width="120" height="20" as="geometry" />
@@ -288,6 +302,9 @@
           <mxGeometry x="550" y="520" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-122" value="岗位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="560" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-128" value="（临时）美顾" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="540" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
