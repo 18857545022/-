@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T14:51:06.830Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="Md-TCG-5-MoP1Asyv2FB" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-15T14:52:01.014Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="vQ-KLRVYSvPxiApokp4s" version="24.0.7" type="github">
   <diagram name="第 1 页" id="Gs3_jzng7EKterP3eEq9">
-    <mxGraphModel dx="1893" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1944" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-93" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="XSxpiQSVj5RqR9Qi4vsM-11" target="XSxpiQSVj5RqR9Qi4vsM-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-11" value="内部人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-11" value="职能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-90" y="720" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-45" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="XSxpiQSVj5RqR9Qi4vsM-25" target="XSxpiQSVj5RqR9Qi4vsM-28">
@@ -49,7 +49,7 @@
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-109" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="XSxpiQSVj5RqR9Qi4vsM-27" target="XSxpiQSVj5RqR9Qi4vsM-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-27" value="内部人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-27" value="职能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="860" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-61" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="XSxpiQSVj5RqR9Qi4vsM-28" target="XSxpiQSVj5RqR9Qi4vsM-57">
@@ -142,7 +142,7 @@
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-43" value="区域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="1229" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-56" value="内部人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-56" value="职能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="670" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-57" value="组织" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -172,7 +172,7 @@
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-72" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;C4I&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-73" value="内部人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-73" value="职能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="860" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-74" value="组织" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -190,7 +190,7 @@
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-134" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="XSxpiQSVj5RqR9Qi4vsM-78" target="XSxpiQSVj5RqR9Qi4vsM-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-78" value="内部人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-78" value="职能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="860.5" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-135" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="XSxpiQSVj5RqR9Qi4vsM-79" target="XSxpiQSVj5RqR9Qi4vsM-74">
@@ -232,7 +232,7 @@
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-123" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="XSxpiQSVj5RqR9Qi4vsM-90" target="XSxpiQSVj5RqR9Qi4vsM-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-90" value="内部人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-90" value="职能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="680" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-124" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="XSxpiQSVj5RqR9Qi4vsM-91" target="XSxpiQSVj5RqR9Qi4vsM-121">
@@ -283,7 +283,7 @@
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-103" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;人员绩效&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="980.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-104" value="内部人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-104" value="职能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="1040" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-105" value="组织" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -316,7 +316,7 @@
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-119" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;技术中台&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-120" value="内部人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XSxpiQSVj5RqR9Qi4vsM-120" value="职能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="500" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XSxpiQSVj5RqR9Qi4vsM-121" value="组织" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
