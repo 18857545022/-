@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T12:45:41.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="ouRldYtUyfKBUcxIIJzo" version="24.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T03:11:27.156Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="V-RbUJ9Jbatp0dCfZM8Q" version="24.3.0" type="github">
   <diagram name="第 1 页" id="HeEPCXqBgrqx8JCdo51S">
-    <mxGraphModel dx="1380" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1173" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6DlFhs00cxl8scHIWj8Q-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="390" y="250" width="260" height="160" as="geometry" />
+        </mxCell>
         <mxCell id="xLdcu0WZfneFnCrg7qVL-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="255" y="201" as="sourcePoint" />
@@ -49,7 +52,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xLdcu0WZfneFnCrg7qVL-28" value="6、发送任务完成信号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xLdcu0WZfneFnCrg7qVL-27" vertex="1" connectable="0">
+        <mxCell id="xLdcu0WZfneFnCrg7qVL-28" value="6、发送签退信号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xLdcu0WZfneFnCrg7qVL-27" vertex="1" connectable="0">
           <mxGeometry x="-0.2039" relative="1" as="geometry">
             <mxPoint x="-46" y="-15" as="offset" />
           </mxGeometry>
@@ -60,12 +63,12 @@
             <mxPoint x="438" y="358.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xLdcu0WZfneFnCrg7qVL-51" value="5、完成任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xLdcu0WZfneFnCrg7qVL-50" vertex="1" connectable="0">
+        <mxCell id="xLdcu0WZfneFnCrg7qVL-51" value="5、签退" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xLdcu0WZfneFnCrg7qVL-50" vertex="1" connectable="0">
           <mxGeometry x="0.2538" y="1" relative="1" as="geometry">
             <mxPoint x="3" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xLdcu0WZfneFnCrg7qVL-22" value="4、执行拜访任务" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="xLdcu0WZfneFnCrg7qVL-22" value="4、执行拜访任务（下单）&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;实时路径监测&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0095" relative="1" as="geometry">
             <mxPoint x="635" y="285" as="sourcePoint" />
             <Array as="points">
@@ -86,7 +89,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xLdcu0WZfneFnCrg7qVL-45" value="8、向主管发送偏差预警" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xLdcu0WZfneFnCrg7qVL-44" vertex="1" connectable="0">
+        <mxCell id="xLdcu0WZfneFnCrg7qVL-45" value="8、&lt;font color=&quot;#ff0000&quot;&gt;向主管发送偏差预警&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xLdcu0WZfneFnCrg7qVL-44" vertex="1" connectable="0">
           <mxGeometry x="-0.2491" y="-2" relative="1" as="geometry">
             <mxPoint x="21" y="-16" as="offset" />
           </mxGeometry>
@@ -104,7 +107,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xLdcu0WZfneFnCrg7qVL-46" value="9、实时地图查看" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="-0.0039" relative="1" as="geometry">
+          <mxGeometry relative="1" as="geometry">
             <mxPoint x="975" y="471" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="1005" y="471" />
@@ -199,6 +202,9 @@
         </mxCell>
         <mxCell id="xLdcu0WZfneFnCrg7qVL-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="965" y="440" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6DlFhs00cxl8scHIWj8Q-2" value="以下单场景为例" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="404" y="310" width="20" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
