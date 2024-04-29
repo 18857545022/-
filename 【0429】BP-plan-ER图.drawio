@@ -1,9 +1,324 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T02:15:27.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" version="24.3.1" etag="7eTvnowySCwlxB0fCOhd" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T09:20:25.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="poTjeLlGgQHs_ivpFDgQ" version="24.3.1" type="github">
   <diagram name="第 1 页" id="yHdoq8By4Nm5lqNlYbqL">
-    <mxGraphModel>
+    <mxGraphModel dx="2207" dy="2033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-3" value="【bp_plan_record】 BP计划记录表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-49" width="300" height="336" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-4" value="+bp_code&amp;nbsp; bp编码" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-3">
+          <mxGeometry y="26" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-18" value="+year 年份" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-3">
+          <mxGeometry y="56" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-21" value="+community_code 小区编码" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-3">
+          <mxGeometry y="86" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-20" value="+community_name 小区名称（冗余&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-3">
+          <mxGeometry y="116" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-19" value="+sku_code 产品（SKU）编码" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-3">
+          <mxGeometry y="146" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-17" value="+sku_name 产品（SKU）名称" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-3">
+          <mxGeometry y="176" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-16" value="+employeey 用户工号" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-3">
+          <mxGeometry y="206" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-15" value="+employee_dept_code_whole 部门编码链" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-3">
+          <mxGeometry y="236" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-14" value="+bp_status BP状态" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-3">
+          <mxGeometry y="266" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-9" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-3">
+          <mxGeometry y="296" width="300" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-6" value="+bp_code&amp;nbsp; bp编码" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-3">
+          <mxGeometry y="306" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-23" value="【bp_plan_config】配置表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-190" width="300" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-24" value="+bp_code&amp;nbsp; bp编码" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-23">
+          <mxGeometry y="26" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-38" value="+inventory_factor_ipo12  IPO12库存系数" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-23">
+          <mxGeometry y="56" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-37" value="+inventory_factor_ipo9 IPO9库存系数" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-23">
+          <mxGeometry y="86" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-36" value="+inventory_factor_3  IPO3库存系数" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-23">
+          <mxGeometry y="116" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-49" value="【小区三年生意计划-年度】" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800" y="231" width="300" height="1086" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-50" value="+bp_code&amp;nbsp; bp编码" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="26" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-51" value="+target_year 目标年份" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="56" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-52" value="+target_family_share_market 目标家庭占有率" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="86" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-69" value="+target_family_number 目标家庭户数*" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="116" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-91" value="+sales_volume_ipo0 IPO0-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="146" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-90" value="+sales_volume_ipo1 IPO1-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="176" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-89" value="+sales_volume_ipo2 IPO2-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="206" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-88" value="+sales_volume_ipo3 IPO3-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="236" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-87" value="+sales_volume_ipo4 IPO4-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="266" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-86" value="+sales_volume_ipo5 IPO5-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="296" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-85" value="+sales_volume_ipo6 IPO6-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="326" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-84" value="+sales_volume_ipo7 IPO7-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="356" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-83" value="+sales_volume_ipo8 IPO8-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="386" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-82" value="+sales_volume_ipo9 IPO9-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="416" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-81" value="+sales_volume_ipo10 IPO10-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="446" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-80" value="+sales_volume_ipo11 IPO11-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="476" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-79" value="+sales_volume_ipo12 IPO12-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="506" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-78" value="+sales_volume_ipo13 IPO13-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="536" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-77" value="+sales_amount_ipo0 IPO0-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="566" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-76" value="+sales_amount_ipo1 IPO1-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="596" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-75" value="+sales_amount_ipo2 IPO2-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="626" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-74" value="+sales_amount_ipo3 IPO3-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="656" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-73" value="+sales_amount_ipo4 IPO4-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="686" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-72" value="+sales_amount_ipo5 IPO5-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="716" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-71" value="+sales_amount_ipo6 IPO6-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="746" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-70" value="+sales_amount_ipo7 IPO7-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="776" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-68" value="+sales_amount_ipo8 IPO8-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="806" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-67" value="+sales_amount_ipo9 IPO9-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="836" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-66" value="+sales_amount_ipo10 IPO10-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="866" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-65" value="+sales_amount_ipo11 IPO11-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="896" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-64" value="+sales_amount_ipo12 IPO12-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="926" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-63" value="+sales_amount_ipo13 IPO13-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="956" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-62" value="+activity_number 活动场次" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="986" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-61" value="+activity_average_cost 平均活动费用" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="1016" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-60" value="+activity_sum_cosy 活动总花费" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="1046" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-54" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-49">
+          <mxGeometry y="1076" width="300" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-93" value="【小区三年生意计划-月度】" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="420" y="400" width="300" height="1116" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-94" value="+bp_code&amp;nbsp; bp编码" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="26" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-95" value="+target_year 目标年份" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="56" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-130" value="+target_month 目标月份" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="86" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-131" value="+target_month_proportion 目标占比(全年100%)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="116" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-97" value="+target_family_number 目标家庭户数*" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="146" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-98" value="+sales_volume_ipo0 IPO0-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="176" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-99" value="+sales_volume_ipo1 IPO1-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="206" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-100" value="+sales_volume_ipo2 IPO2-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="236" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-101" value="+sales_volume_ipo3 IPO3-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="266" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-102" value="+sales_volume_ipo4 IPO4-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="296" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-103" value="+sales_volume_ipo5 IPO5-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="326" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-104" value="+sales_volume_ipo6 IPO6-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="356" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-105" value="+sales_volume_ipo7 IPO7-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="386" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-106" value="+sales_volume_ipo8 IPO8-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="416" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-107" value="+sales_volume_ipo9 IPO9-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="446" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-108" value="+sales_volume_ipo10 IPO10-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="476" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-109" value="+sales_volume_ipo11 IPO11-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="506" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-110" value="+sales_volume_ipo12 IPO12-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="536" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-111" value="+sales_volume_ipo13 IPO13-销量" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="566" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-112" value="+sales_amount_ipo0 IPO0-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="596" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-113" value="+sales_amount_ipo1 IPO1-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="626" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-114" value="+sales_amount_ipo2 IPO2-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="656" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-115" value="+sales_amount_ipo3 IPO3-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="686" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-116" value="+sales_amount_ipo4 IPO4-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="716" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-117" value="+sales_amount_ipo5 IPO5-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="746" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-118" value="+sales_amount_ipo6 IPO6-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="776" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-119" value="+sales_amount_ipo7 IPO7-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="806" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-120" value="+sales_amount_ipo8 IPO8-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="836" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-121" value="+sales_amount_ipo9 IPO9-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="866" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-122" value="+sales_amount_ipo10 IPO10-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="896" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-123" value="+sales_amount_ipo11 IPO11-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="926" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-124" value="+sales_amount_ipo12 IPO12-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="956" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-125" value="+sales_amount_ipo13 IPO13-销额" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="986" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-126" value="+activity_number 活动场次" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="1016" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-127" value="+activity_average_cost 平均活动费用" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="1046" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-128" value="+activity_sum_cosy 活动总花费" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="1076" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-129" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-93">
+          <mxGeometry y="1106" width="300" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="si8qcC3lpYMCVnZY6Wmo-6" target="si8qcC3lpYMCVnZY6Wmo-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="si8qcC3lpYMCVnZY6Wmo-6" target="si8qcC3lpYMCVnZY6Wmo-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="si8qcC3lpYMCVnZY6Wmo-6" target="si8qcC3lpYMCVnZY6Wmo-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-136" value="【小区活动日历】" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800" y="-49" width="300" height="266" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-137" value="+bp_code&amp;nbsp; bp编码" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-136">
+          <mxGeometry y="26" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-138" value="+activity_name 活动名称" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-136">
+          <mxGeometry y="56" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-139" value="+activity_remark 活动备注" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-136">
+          <mxGeometry y="86" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-140" value="+activity_year 活动年份" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-136">
+          <mxGeometry y="116" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-150" value="+activity_month 活动月份" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-136">
+          <mxGeometry y="146" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-149" value="+bp_activity_type 所属活动类型（AIPL）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-136">
+          <mxGeometry y="176" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-148" value="+activity_start_time 活动起始时间" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-136">
+          <mxGeometry y="206" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-147" value="+activity_end_time 活动结束时间" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="si8qcC3lpYMCVnZY6Wmo-136">
+          <mxGeometry y="236" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si8qcC3lpYMCVnZY6Wmo-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="si8qcC3lpYMCVnZY6Wmo-6" target="si8qcC3lpYMCVnZY6Wmo-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
