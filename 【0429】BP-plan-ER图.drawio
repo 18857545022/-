@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-01T03:13:43.577Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="E0rUvs-pOTqRa9-r6N9N" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-01T03:33:02.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="nxx940sW7a1MXs-ZZbME" version="24.3.1" type="github">
   <diagram name="第 1 页" id="yHdoq8By4Nm5lqNlYbqL">
-    <mxGraphModel dx="2062" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2207" dy="2033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,7 +118,7 @@
           <mxGeometry y="280" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="si8qcC3lpYMCVnZY6Wmo-49" value="【bp_plan_year_business】&#xa;小区三年生意计划-年度" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="536" y="-316" width="300" height="316" as="geometry">
+          <mxGeometry x="536" y="-360" width="300" height="316" as="geometry">
             <mxRectangle x="536" y="-380" width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -297,7 +297,7 @@
           <mxGeometry y="306" width="300" height="10" as="geometry" />
         </mxCell>
         <mxCell id="si8qcC3lpYMCVnZY6Wmo-93" value="【bp_plan_month_business】&#xa;小区三年生意计划-月度" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="536" y="30" width="300" height="290" as="geometry">
+          <mxGeometry x="536" y="-20" width="300" height="290" as="geometry">
             <mxRectangle x="536" y="-50" width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -530,7 +530,7 @@
         <mxCell id="Yrzyq5O2eDgayx6oTDlO-4" value="+store_code 门店编码" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=0" parent="Yrzyq5O2eDgayx6oTDlO-2" vertex="1">
           <mxGeometry y="86" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yrzyq5O2eDgayx6oTDlO-5" value="+store_name 门店名称" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=0" parent="Yrzyq5O2eDgayx6oTDlO-2" vertex="1">
+        <mxCell id="Yrzyq5O2eDgayx6oTDlO-5" value="+store_name 门店名称（冗余）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=0" parent="Yrzyq5O2eDgayx6oTDlO-2" vertex="1">
           <mxGeometry y="116" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FKZaHtH8kfwDyhnmMNf3-39" value="+jbp_activity_calendar_json&amp;nbsp; &amp;nbsp;JPB活动日历框架json" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" parent="Yrzyq5O2eDgayx6oTDlO-2" vertex="1">
@@ -551,7 +551,7 @@
         <mxCell id="Yrzyq5O2eDgayx6oTDlO-27" value="+target_year 目标年份" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=0" parent="Yrzyq5O2eDgayx6oTDlO-24" vertex="1">
           <mxGeometry y="70" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yrzyq5O2eDgayx6oTDlO-31" value="+store_proportion 门店分配占比" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" parent="Yrzyq5O2eDgayx6oTDlO-24" vertex="1">
+        <mxCell id="Yrzyq5O2eDgayx6oTDlO-31" value="+target_store_proportion 门店目标分配占比" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=1" parent="Yrzyq5O2eDgayx6oTDlO-24" vertex="1">
           <mxGeometry y="100" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Yrzyq5O2eDgayx6oTDlO-41" value="+target_family_number 目标家庭户数" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fontStyle=0" parent="Yrzyq5O2eDgayx6oTDlO-24" vertex="1">
