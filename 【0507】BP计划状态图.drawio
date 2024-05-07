@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T01:01:28.036Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" version="24.3.1" etag="HlTD-aST1FnZag0rZzGR" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T01:17:34.645Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="_QGj8QGr5Ns-5xGr0lup" version="24.3.1" type="github">
   <diagram name="第 1 页" id="wog4beCFyBF4nyXjzFM2">
-    <mxGraphModel>
+    <mxGraphModel dx="855" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-2" value="BP计划创建状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-3" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="520" width="810" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-6" value="小区三年生意计划&lt;br&gt;-下一步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-7" value="小区三年活动规划&lt;br&gt;-下一步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-8" value="门店三年生意计划&lt;br&gt;-下一步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-9" value="门店三年活动规划&lt;br&gt;-下一步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-10" value="完成BP设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-11" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="680" width="810" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-12" value="bp_status=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-14" value="bp_status=1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-15" value="bp_status=2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-16" value="bp_status=3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-17" value="bp_status=4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-18" value="bp_status=5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="339.31" y="570" as="sourcePoint" />
+            <mxPoint x="340" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-22" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;1、创建BP计划&lt;br&gt;2、拉取 小区&amp;amp;产品&amp;amp;门店显示快照&lt;br&gt;3、拉取 计算依赖数据快照&lt;br&gt;4、小区三年生意计划初始数据生成&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="420" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-24" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="570" as="sourcePoint" />
+            <mxPoint x="470.69" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8o4rn5y3WL7oII3MpXX-27" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;1、创建BP计划&lt;br&gt;2、拉取 小区&amp;amp;产品&amp;amp;门店显示快照&lt;br&gt;3、拉取 计算依赖数据快照&lt;br&gt;4、小区三年生意计划初始数据生成&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="120" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
