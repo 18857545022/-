@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T03:25:47.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="QXYY7_-H6hBIKh6OPyRr" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T03:49:42.999Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="3ZpagALkgz1JzJSB_hbq" version="24.4.4" type="github">
   <diagram name="第 1 页" id="_mnCOzUP9DBz8knvAwrc">
-    <mxGraphModel dx="4653" dy="2266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2044" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pive_YGZ8aj-ZetJPHNV-24" value="将数据打包成1条" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1425" y="1000" width="490" height="210" as="geometry" />
+        </mxCell>
         <mxCell id="es6LMimWQ2Kn1pDAPc1K-94" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-360" y="60" width="1950" height="670" as="geometry" />
         </mxCell>
@@ -247,6 +250,30 @@
         </mxCell>
         <mxCell id="pive_YGZ8aj-ZetJPHNV-12" value="S2&amp;nbsp; 进行交互完善" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="116" y="1230" width="244" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pive_YGZ8aj-ZetJPHNV-18" value="小区-人口信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pive_YGZ8aj-ZetJPHNV-19" value="小区-基础信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pive_YGZ8aj-ZetJPHNV-20" value="小区-周边信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pive_YGZ8aj-ZetJPHNV-21" value="小区-消费者购买点偏好" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="1123.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pive_YGZ8aj-ZetJPHNV-22" value="小区-竞品信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1123.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pive_YGZ8aj-ZetJPHNV-23" value="小区-消费者画像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1123.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pive_YGZ8aj-ZetJPHNV-27" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;方案一&lt;/h1&gt;&lt;div&gt;通过CRM自行监听单表Topic，通过关联查询，组装数据。最终投放到数据湖消费Topic&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;优点：可以实现逻辑去重&lt;/div&gt;&lt;div&gt;缺点：需要业务系统（CRM）开发&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="1000" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pive_YGZ8aj-ZetJPHNV-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;方案二&lt;/h1&gt;&lt;div&gt;通过低代码MQ监听，进行数据组装，拼接最终投入到数据湖消费Topic中&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;优点：配置化，可以减少业务系统开发工作量&lt;/div&gt;&lt;div&gt;缺点：逻辑去重逻辑复杂，需要额外Redis、MQ组件&lt;span style=&quot;background-color: initial;&quot;&gt;开发&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="1183.75" width="260" height="146.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
