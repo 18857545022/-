@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T08:05:39.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="pY_nMEXB1lRkE-rZlYrC" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T09:34:17.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="BL0WA0uAm0FtuZ8wH8wy" version="24.4.4" type="github">
   <diagram name="第 1 页" id="_mnCOzUP9DBz8knvAwrc">
-    <mxGraphModel dx="2856" dy="1438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2122" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1070" y="1690" width="1230" height="270" as="geometry" />
         </mxCell>
         <mxCell id="pive_YGZ8aj-ZetJPHNV-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -278,13 +278,13 @@
         <mxCell id="pive_YGZ8aj-ZetJPHNV-27" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;方案一&lt;/h1&gt;&lt;div&gt;通过CRM自行监听单表Topic，通过关联查询，组装数据。最终投放到数据湖消费Topic&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;优点：可以实现逻辑去重&lt;/div&gt;&lt;div&gt;缺点：需要业务系统（CRM）开发&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1950" y="1000" width="260" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="pive_YGZ8aj-ZetJPHNV-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font color=&quot;#33ff33&quot;&gt;√ 方案&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;通过低代码MQ监听，进行数据组装，拼接最终投入到数据湖消费Topic中&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;优点：配置化，可以减少业务系统开发工作量&lt;/div&gt;&lt;div&gt;缺点：逻辑去重逻辑复杂，需要额外Redis、MQ组件&lt;span style=&quot;background-color: initial;&quot;&gt;开发&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1835" y="1338" width="260" height="146.25" as="geometry" />
+        <mxCell id="pive_YGZ8aj-ZetJPHNV-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font color=&quot;#33ff33&quot;&gt;√ 方案&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;1、通过低代码配置分钟级定时任务&lt;br&gt;&lt;/div&gt;&lt;div&gt;2、配置CRM项目Mysql数据源&lt;/div&gt;&lt;div&gt;3、根据updated_time进行增量变更小区编码查询获取&lt;/div&gt;&lt;div&gt;4、基于小区编码多表关联查询数据，进行数据组装&lt;/div&gt;&lt;div&gt;5、将组装数据推送到MQ对应的Topic供数据湖消费&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1835" y="1338" width="285" height="146.25" as="geometry" />
         </mxCell>
         <mxCell id="pive_YGZ8aj-ZetJPHNV-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pive_YGZ8aj-ZetJPHNV-29" target="pive_YGZ8aj-ZetJPHNV-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pive_YGZ8aj-ZetJPHNV-29" value="Mysql组件&lt;br&gt;查询6表中&lt;br&gt;变更小区编码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="pive_YGZ8aj-ZetJPHNV-29" value="Mysql组件&lt;br&gt;根据updated_time&lt;br&gt;查询6表获取&lt;br&gt;变更小区编码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1360" y="1540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pive_YGZ8aj-ZetJPHNV-30" value="Mysql组件&lt;br&gt;关联多表查询" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -301,57 +301,57 @@
         <mxCell id="pive_YGZ8aj-ZetJPHNV-37" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;需求背景&lt;/h1&gt;&lt;p&gt;数据湖监听主数据变更，但是无法基于业务表进行字段update，对数据湖性能有所影响。&lt;br&gt;期望：当主数据的任意信息发生变更时，能进行关联查询，将数据打包后给到数据湖。如下六合一&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1095" y="1178" width="650" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kdeb1IMbK-QuAWVvISd_-1" target="Kdeb1IMbK-QuAWVvISd_-2">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kdeb1IMbK-QuAWVvISd_-1" target="Kdeb1IMbK-QuAWVvISd_-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-1" value="定时任务（10分）&lt;br&gt;小区-基础.." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-1" value="定时任务（10分）&lt;br&gt;小区-基础.." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1305" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kdeb1IMbK-QuAWVvISd_-2" target="Kdeb1IMbK-QuAWVvISd_-4">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kdeb1IMbK-QuAWVvISd_-2" target="Kdeb1IMbK-QuAWVvISd_-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-2" value="采集到小区编码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-2" value="采集到小区编码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1505" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kdeb1IMbK-QuAWVvISd_-4" target="Kdeb1IMbK-QuAWVvISd_-6">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kdeb1IMbK-QuAWVvISd_-4" target="Kdeb1IMbK-QuAWVvISd_-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-4" value="小区编码关联&lt;br&gt;查询组装&lt;br&gt;数据集" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-4" value="小区编码关联&lt;br&gt;查询组装&lt;br&gt;数据集" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1705" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kdeb1IMbK-QuAWVvISd_-6" target="Kdeb1IMbK-QuAWVvISd_-8">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kdeb1IMbK-QuAWVvISd_-6" target="Kdeb1IMbK-QuAWVvISd_-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-6" value="增量：变化数据&lt;br&gt;API？MQ?S3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-6" value="增量：变化数据&lt;br&gt;API？MQ?S3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1905" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-8" value="数据湖消费" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-8" value="数据湖消费" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="2105" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kdeb1IMbK-QuAWVvISd_-10" target="Kdeb1IMbK-QuAWVvISd_-2">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Kdeb1IMbK-QuAWVvISd_-10" target="Kdeb1IMbK-QuAWVvISd_-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-10" value="定时任务（10分）&lt;br&gt;小区-人口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-10" value="定时任务（10分）&lt;br&gt;小区-人口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1305" y="1790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kdeb1IMbK-QuAWVvISd_-11" target="Kdeb1IMbK-QuAWVvISd_-2">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Kdeb1IMbK-QuAWVvISd_-11" target="Kdeb1IMbK-QuAWVvISd_-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1500" y="1740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-11" value="定时任务（10分）&lt;br&gt;。。。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-11" value="定时任务（10分）&lt;br&gt;。。。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1305" y="1870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-14" value="60分钟&lt;br&gt;6*24 = 1440次" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-14" value="60分钟&lt;br&gt;6*24 = 1440次" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1530" y="1790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kdeb1IMbK-QuAWVvISd_-15" target="pive_YGZ8aj-ZetJPHNV-29">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Kdeb1IMbK-QuAWVvISd_-15" target="pive_YGZ8aj-ZetJPHNV-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-15" value="定时任务（5&lt;b&gt;分&lt;/b&gt;）&lt;br&gt;小区-基础.." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-15" value="定时任务（5&lt;b&gt;分&lt;/b&gt;）&lt;br&gt;启动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1120" y="1540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kdeb1IMbK-QuAWVvISd_-19" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Kdeb1IMbK-QuAWVvISd_-19" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1090" y="1720" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
