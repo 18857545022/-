@@ -1,9 +1,138 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.12">
   <diagram name="第 1 页" id="H6AqT9seHWoVBqNOVhbS">
-    <mxGraphModel>
+    <mxGraphModel dx="925" dy="1622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-25" value="message_entity&lt;br&gt;消息表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-190" width="190" height="714" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-26" value="message_id-消息id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-27" value="template_code-模板编码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-28" value="template_name-模板名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-30" value="template_text-模板正文" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="104" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-43" value="push_text-推送正文" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="130" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-42" value="push_url-推送url" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="156" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-41" value="template_url-模板url" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="182" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-40" value="system_code-调用系统三字码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="208" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-39" value="message_type-消息类型（0:即时消息，1:定时消息）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="234" width="190" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-38" value="status-状态（0:待推送，1:推送中，2:推送结束）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="270" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-37" value="push_type-推送类型（0:短信，1:微信小程序）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="310" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-36" value="vendor_id-推送渠道" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="350" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-35" value="receivers-接收人（json格式）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="376" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-34" value="keywords-关键字（json格式）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="402" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-33" value="total_size-推送总数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="428" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-32" value="push_size-推送消息个数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="454" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-31" value="success_size-成功推送个数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="480" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-49" value="fail_size-失败推送个数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="506" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-48" value="business_no-业务编号（订单号）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="532" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-47" value="sender-发送人信息（登录人）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="558" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-50" value="sender-发送人信息（登录人）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="584" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-51" value="created_time-创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="610" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-52" value="updated_time-更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="636" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-54" value="act_push_time-实际推送时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="662" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-55" value="finish_push_time-最终送达时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-25">
+          <mxGeometry y="688" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-56" value="push_entity&lt;br&gt;推送表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-160" width="200" height="476" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-57" value="transaction_no - 流水号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-58" value="message_id - 消息id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-59" value="receiver - 接收人" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-60" value="push_text - 推送内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="104" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-61" value="push_url - 推送url" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="130" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-62" value="template_code - 模板编码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="156" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-64" value="push_type - 推送类型（0:短信，1:微信小程序）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="182" width="200" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-65" value="vendor_id - 供应商id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="220" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-66" value="status - 状态（0:待推送，1:推送中，2:推送成功，3:推送失败）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="250" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-67" value="push_description - 推送描述" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="290" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-68" value="business_no - 业务编码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="320" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-69" value="sender - 发送人" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="346" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-74" value="outer_transaction_no - 外部流水号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="372" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-78" value="created_time-创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="398" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-80" value="act_push_time-创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="424" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BDqCNvhcxpVXPo_nU_bE-81" value="finish_push_time-创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BDqCNvhcxpVXPo_nU_bE-56">
+          <mxGeometry y="450" width="200" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
