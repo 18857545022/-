@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.16">
   <diagram name="第 1 页" id="fpY8yn4sJWRvHEiPrYGF">
-    <mxGraphModel dx="2406" dy="1962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3957" dy="3252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -288,7 +288,7 @@
         <mxCell id="G3k9K2cqqkwImt9SPJEE-147" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;非AIO未绑门店&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="G3k9K2cqqkwImt9SPJEE-168" vertex="1">
           <mxGeometry x="195.00000000000003" y="174.99999999999997" width="39.99998472116703" height="39.99998472116703" as="geometry" />
         </mxCell>
-        <mxCell id="G3k9K2cqqkwImt9SPJEE-150" value="DCloud" style="ellipse;whiteSpace=wrap;html=1;align=left;opacity=60;fillColor=#f8cecc;strokeColor=#b85450;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="G3k9K2cqqkwImt9SPJEE-168" vertex="1">
+        <mxCell id="G3k9K2cqqkwImt9SPJEE-150" value="CRM" style="ellipse;whiteSpace=wrap;html=1;align=left;opacity=60;fillColor=#f8cecc;strokeColor=#b85450;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="G3k9K2cqqkwImt9SPJEE-168" vertex="1">
           <mxGeometry x="415.00000000000006" y="89.99999999999999" width="145" height="135" as="geometry" />
         </mxCell>
         <mxCell id="G3k9K2cqqkwImt9SPJEE-151" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;AIO门店&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="G3k9K2cqqkwImt9SPJEE-168" vertex="1">
@@ -342,6 +342,17 @@
         <mxCell id="G3k9K2cqqkwImt9SPJEE-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.325;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="G3k9K2cqqkwImt9SPJEE-168" source="G3k9K2cqqkwImt9SPJEE-133" target="G3k9K2cqqkwImt9SPJEE-162" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="G3k9K2cqqkwImt9SPJEE-136" value="DCloud" style="ellipse;whiteSpace=wrap;html=1;align=right;opacity=60;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="G3k9K2cqqkwImt9SPJEE-168" vertex="1">
+          <mxGeometry x="625" y="89.99999999999999" width="145" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="G3k9K2cqqkwImt9SPJEE-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="G3k9K2cqqkwImt9SPJEE-168" source="G3k9K2cqqkwImt9SPJEE-136" target="G3k9K2cqqkwImt9SPJEE-150" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3k9K2cqqkwImt9SPJEE-135" value="门店同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="G3k9K2cqqkwImt9SPJEE-134" vertex="1" connectable="0">
+          <mxGeometry x="0.1036" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KdSVYTsgfEsWMXREi8Ig-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;数据散&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="G3k9K2cqqkwImt9SPJEE-202" vertex="1">
           <mxGeometry x="401.25" y="-85" width="125" height="40" as="geometry" />
         </mxCell>
@@ -372,22 +383,11 @@
             <mxPoint x="77.83783783783781" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G3k9K2cqqkwImt9SPJEE-136" value="DCloud" style="ellipse;whiteSpace=wrap;html=1;align=right;opacity=60;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="G3k9K2cqqkwImt9SPJEE-202" vertex="1">
-          <mxGeometry x="1080" y="89.99999999999999" width="145" height="135" as="geometry" />
-        </mxCell>
         <mxCell id="G3k9K2cqqkwImt9SPJEE-148" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;AIO门店&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="G3k9K2cqqkwImt9SPJEE-202" vertex="1">
           <mxGeometry x="1105" y="131.5" width="36.49998605806491" height="36.49998605806491" as="geometry" />
         </mxCell>
         <mxCell id="G3k9K2cqqkwImt9SPJEE-149" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;非AIO门店&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="G3k9K2cqqkwImt9SPJEE-202" vertex="1">
-          <mxGeometry x="1159" y="131.5" width="34.99998663102115" height="34.99998663102115" as="geometry" />
-        </mxCell>
-        <mxCell id="G3k9K2cqqkwImt9SPJEE-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="G3k9K2cqqkwImt9SPJEE-202" source="G3k9K2cqqkwImt9SPJEE-136" target="G3k9K2cqqkwImt9SPJEE-150" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="G3k9K2cqqkwImt9SPJEE-135" value="门店同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="G3k9K2cqqkwImt9SPJEE-134" vertex="1" connectable="0">
-          <mxGeometry x="0.1036" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry x="1141.5" y="175" width="34.99998663102115" height="34.99998663102115" as="geometry" />
         </mxCell>
         <mxCell id="G3k9K2cqqkwImt9SPJEE-206" value="页面嵌套&lt;br&gt;前端壁垒打通" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="100" y="-350" width="120" height="80" as="geometry" />
