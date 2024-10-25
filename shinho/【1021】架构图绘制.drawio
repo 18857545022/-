@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.1">
   <diagram name="第 1 页" id="hZs13M3GJtKdBzcRhd1a">
-    <mxGraphModel dx="2269" dy="2092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3423" dy="2831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,7 +79,7 @@
         <mxCell id="698oYPcISNB5FkrnnYcq-9" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;网关服务&lt;/b&gt;&lt;/span&gt;&lt;br&gt;shmall-gateway-service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;" parent="1" vertex="1">
           <mxGeometry x="470" y="600" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="698oYPcISNB5FkrnnYcq-10" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+        <mxCell id="698oYPcISNB5FkrnnYcq-10" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 黑体; font-size: 20px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;微前端&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="470" y="1660" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="698oYPcISNB5FkrnnYcq-26" value="" style="group;fillColor=#FCF9EA;strokeColor=#4D4D4D;" parent="1" vertex="1" connectable="0">
@@ -1465,14 +1465,53 @@
         <mxCell id="lLvTbwjTDQCi4vpc5BO5-125" value="导出文件下载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lLvTbwjTDQCi4vpc5BO5-123">
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lLvTbwjTDQCi4vpc5BO5-130" value="通用能力域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4c18f;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-130" value="基础架构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4c18f;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="470" y="1590" width="620" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lLvTbwjTDQCi4vpc5BO5-131" value="通用能力域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4c18f;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-131" value="AI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4c18f;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1110" y="1590" width="460" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lLvTbwjTDQCi4vpc5BO5-132" value="通用能力域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4c18f;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1590" y="1590" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-143" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 黑体; font-size: 20px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;小程序平台&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1660" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-144" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 黑体; font-size: 20px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;前端组件库&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1660" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-145" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 黑体; font-size: 20px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;微服务脚手架&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1660" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-154" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 黑体; font-size: 20px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;Common包&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="472" y="1713" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-155" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 黑体; font-size: 20px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;ApiGeteway&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="792" y="1713" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-156" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 黑体; font-size: 20px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;消息中间件&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="632" y="1713" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-157" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 黑体; font-size: 20px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;配置中心&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="952" y="1713" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-158" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 黑体; font-size: 20px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;微服务脚手架&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1660" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-159" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 黑体; font-size: 20px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;配置中心&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1112" y="1713" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-160" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 黑体; font-size: 20px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;微服务脚手架&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1268" y="1660" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-161" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 黑体; font-size: 20px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;配置中心&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1713" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-162" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 黑体; font-size: 20px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;微服务脚手架&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="1660" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-163" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 黑体; font-size: 20px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;配置中心&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1432" y="1713" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
