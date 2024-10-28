@@ -616,7 +616,7 @@
         <mxCell id="698oYPcISNB5FkrnnYcq-303" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;⑮&lt;/b&gt;组织架构" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="698oYPcISNB5FkrnnYcq-302" vertex="1">
           <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="698oYPcISNB5FkrnnYcq-304" value="用户" style="rounded=0;whiteSpace=wrap;html=1;" parent="698oYPcISNB5FkrnnYcq-302" vertex="1">
+        <mxCell id="698oYPcISNB5FkrnnYcq-304" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;⑮&lt;/b&gt;用户" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="698oYPcISNB5FkrnnYcq-302" vertex="1">
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="698oYPcISNB5FkrnnYcq-305" value="" style="group" parent="698oYPcISNB5FkrnnYcq-301" vertex="1" connectable="0">
@@ -685,13 +685,13 @@
         <mxCell id="698oYPcISNB5FkrnnYcq-327" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;物料追溯&lt;/b&gt;&lt;/span&gt;&lt;br&gt;df-trace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;" parent="1" vertex="1">
           <mxGeometry x="1904" y="410" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="698oYPcISNB5FkrnnYcq-328" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;包材库存&lt;/b&gt;&lt;/span&gt;&lt;br&gt;df-storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="698oYPcISNB5FkrnnYcq-328" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;⑦&lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;包材库存&lt;/b&gt;&lt;/span&gt;&lt;br&gt;df-storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="1584" y="630" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="698oYPcISNB5FkrnnYcq-329" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;⑥&lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;订单服务&lt;/b&gt;&lt;/span&gt;&lt;br&gt;df-order" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="1584" y="680" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="698oYPcISNB5FkrnnYcq-330" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;消息服务&lt;/b&gt;&lt;/span&gt;&lt;br&gt;df-message" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="698oYPcISNB5FkrnnYcq-330" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;㉒&lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;消息服务&lt;/b&gt;&lt;/span&gt;&lt;br&gt;df-message" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="1744" y="780" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="698oYPcISNB5FkrnnYcq-331" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;质量检验计划&lt;/b&gt;&lt;/span&gt;&lt;br&gt;df-quality-plan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;" parent="1" vertex="1">
