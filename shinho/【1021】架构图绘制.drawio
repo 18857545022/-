@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3">
   <diagram name="第 1 页" id="hZs13M3GJtKdBzcRhd1a">
-    <mxGraphModel dx="2990" dy="2554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1754" dy="1763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2609,6 +2609,114 @@
           <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nsD5ChUwFgbTr9mcZkQy-23" value="合同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-21">
+          <mxGeometry x="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-24" value="人事（MHR）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d2d6f9;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2591" y="1200" width="298" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-25" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;薪酬方案&amp;amp;模版&lt;/b&gt;&lt;/span&gt;&lt;br&gt;mhr-salary-service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2749" y="1306" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2590" y="1260" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-27" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;MHR管理服务&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;mhr-manager-service&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#d6b656;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-26">
+          <mxGeometry width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-28" value="" style="group" vertex="1" connectable="0" parent="nsD5ChUwFgbTr9mcZkQy-26">
+          <mxGeometry x="5" y="50" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-29" value="" style="group" vertex="1" connectable="0" parent="nsD5ChUwFgbTr9mcZkQy-28">
+          <mxGeometry width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-30" value="人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-29">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-31" value="岗位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-29">
+          <mxGeometry x="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-32" value="" style="group" vertex="1" connectable="0" parent="nsD5ChUwFgbTr9mcZkQy-28">
+          <mxGeometry y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-33" value="考勤" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-32">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-34" value="排版" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-32">
+          <mxGeometry x="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-35" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;非正编用工计划&lt;/b&gt;&lt;/span&gt;&lt;br&gt;mhr-plan-service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2749" y="1256" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-36" value="绩效联动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d2d6f9;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="1200" width="298" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-37" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2910" y="1260" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-38" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;绩效收入管理&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;plrs-manager-service&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#d6b656;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-37">
+          <mxGeometry width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-39" value="" style="group" vertex="1" connectable="0" parent="nsD5ChUwFgbTr9mcZkQy-37">
+          <mxGeometry x="5" y="50" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-40" value="" style="group" vertex="1" connectable="0" parent="nsD5ChUwFgbTr9mcZkQy-39">
+          <mxGeometry width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-41" value="人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-40">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-42" value="岗位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-40">
+          <mxGeometry x="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-43" value="" style="group" vertex="1" connectable="0" parent="nsD5ChUwFgbTr9mcZkQy-39">
+          <mxGeometry y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-44" value="考勤" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-43">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-45" value="排版" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-43">
+          <mxGeometry x="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-46" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;人员指标服务&lt;/b&gt;&lt;/span&gt;&lt;br&gt;plrs-target-service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3068" y="1261" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-48" value="" style="group;fillColor=#FCF9EA;strokeColor=#4D4D4D;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="3070" y="1310" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-49" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;三方/定时服务&lt;/b&gt;&lt;/span&gt;&lt;br&gt;plrs-third-service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;verticalAlign=top;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-48">
+          <mxGeometry width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-50" value="" style="group;dashed=1;dashPattern=8 8;" vertex="1" connectable="0" parent="nsD5ChUwFgbTr9mcZkQy-48">
+          <mxGeometry x="5" y="50" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-51" value="定时任务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-50">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-52" value="第三方" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-50">
+          <mxGeometry x="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-67" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;消息通知&lt;/b&gt;&lt;/span&gt;&lt;br&gt;plrs-msg-service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="1411" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-68" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;网关服务&lt;/b&gt;&lt;/span&gt;&lt;br&gt;plrs-gateway-service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3070" y="1411" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-69" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;人员指标服务&lt;/b&gt;&lt;/span&gt;&lt;br&gt;plrs-target-service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="1470" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-70" value="" style="group;fillColor=#FCF9EA;strokeColor=#4D4D4D;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="3070" y="1470" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-71" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;薪资测算DSR&lt;/b&gt;&lt;/span&gt;&lt;br&gt;dops-aio-service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;verticalAlign=top;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-70">
+          <mxGeometry width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-72" value="" style="group;dashed=1;dashPattern=8 8;" vertex="1" connectable="0" parent="nsD5ChUwFgbTr9mcZkQy-70">
+          <mxGeometry x="5" y="50" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-73" value="业绩目标" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-72">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsD5ChUwFgbTr9mcZkQy-74" value="薪资" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nsD5ChUwFgbTr9mcZkQy-72">
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
