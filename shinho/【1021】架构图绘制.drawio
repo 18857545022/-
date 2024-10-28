@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3">
   <diagram name="第 1 页" id="hZs13M3GJtKdBzcRhd1a">
-    <mxGraphModel dx="4901" dy="3429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2328" dy="2002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -139,7 +139,7 @@
         <mxCell id="698oYPcISNB5FkrnnYcq-41" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;⑰&lt;/b&gt;区域" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="698oYPcISNB5FkrnnYcq-39" vertex="1">
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="698oYPcISNB5FkrnnYcq-43" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;字典功能&lt;/b&gt;&lt;/span&gt;&lt;br&gt;crm-dict" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;" parent="1" vertex="1">
+        <mxCell id="698oYPcISNB5FkrnnYcq-43" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;㉔&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;字典功能&lt;/b&gt;&lt;br&gt;crm-dict" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="952" y="600" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="698oYPcISNB5FkrnnYcq-44" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;㉑&lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;流程引擎&lt;/b&gt;&lt;/span&gt;&lt;br&gt;crm-workflow" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
@@ -1411,7 +1411,7 @@
         <mxCell id="lLvTbwjTDQCi4vpc5BO5-117" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1910" y="1430" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="lLvTbwjTDQCi4vpc5BO5-118" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;㉔&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;网关中心&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" parent="lLvTbwjTDQCi4vpc5BO5-117" vertex="1">
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-118" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;㉔&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;字典配置&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" parent="lLvTbwjTDQCi4vpc5BO5-117" vertex="1">
           <mxGeometry width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="lLvTbwjTDQCi4vpc5BO5-119" value="" style="group" parent="lLvTbwjTDQCi4vpc5BO5-117" vertex="1" connectable="0">
@@ -1420,19 +1420,19 @@
         <mxCell id="lLvTbwjTDQCi4vpc5BO5-120" value="" style="group" parent="lLvTbwjTDQCi4vpc5BO5-119" vertex="1" connectable="0">
           <mxGeometry width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lLvTbwjTDQCi4vpc5BO5-121" value="内部网关" style="rounded=0;whiteSpace=wrap;html=1;" parent="lLvTbwjTDQCi4vpc5BO5-120" vertex="1">
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-121" value="配置新增/编辑" style="rounded=0;whiteSpace=wrap;html=1;" parent="lLvTbwjTDQCi4vpc5BO5-120" vertex="1">
           <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lLvTbwjTDQCi4vpc5BO5-122" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;消费者网关&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="lLvTbwjTDQCi4vpc5BO5-120" vertex="1">
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-122" value="&lt;div style=&quot;&quot;&gt;配置移除&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="lLvTbwjTDQCi4vpc5BO5-120" vertex="1">
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lLvTbwjTDQCi4vpc5BO5-123" value="" style="group" parent="lLvTbwjTDQCi4vpc5BO5-119" vertex="1" connectable="0">
           <mxGeometry y="40" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lLvTbwjTDQCi4vpc5BO5-124" value="手持网关" style="rounded=0;whiteSpace=wrap;html=1;" parent="lLvTbwjTDQCi4vpc5BO5-123" vertex="1">
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-124" value="多数据类型支持" style="rounded=0;whiteSpace=wrap;html=1;" parent="lLvTbwjTDQCi4vpc5BO5-123" vertex="1">
           <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lLvTbwjTDQCi4vpc5BO5-125" value="经销商网关" style="rounded=0;whiteSpace=wrap;html=1;" parent="lLvTbwjTDQCi4vpc5BO5-123" vertex="1">
+        <mxCell id="lLvTbwjTDQCi4vpc5BO5-125" value="字典配置引用" style="rounded=0;whiteSpace=wrap;html=1;" parent="lLvTbwjTDQCi4vpc5BO5-123" vertex="1">
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lLvTbwjTDQCi4vpc5BO5-130" value="基础架构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4c18f;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
