@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3">
   <diagram name="第 1 页" id="qQZf3QKmK9aggu2YcYBQ">
-    <mxGraphModel dx="1592" dy="3283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-518" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1162,10 +1162,10 @@
         <mxCell id="8Zci_N4jVoXhXL_Aa34t-386" value="营销域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4c18f;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="2481" y="900" width="300" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8Zci_N4jVoXhXL_Aa34t-387" value="" style="group" parent="1" vertex="1" connectable="0">
+        <mxCell id="8Zci_N4jVoXhXL_Aa34t-387" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="2481" y="960" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="8Zci_N4jVoXhXL_Aa34t-388" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;①活动中心&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#000000;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" parent="8Zci_N4jVoXhXL_Aa34t-387" vertex="1">
+        <mxCell id="8Zci_N4jVoXhXL_Aa34t-388" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;①活动中心&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#000000;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=3;" parent="8Zci_N4jVoXhXL_Aa34t-387" vertex="1">
           <mxGeometry width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="8Zci_N4jVoXhXL_Aa34t-389" value="" style="group" parent="8Zci_N4jVoXhXL_Aa34t-387" vertex="1" connectable="0">
@@ -1222,7 +1222,7 @@
         <mxCell id="8Zci_N4jVoXhXL_Aa34t-406" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="2801" y="960" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="8Zci_N4jVoXhXL_Aa34t-407" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;⑤商品中心&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#000000;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" parent="8Zci_N4jVoXhXL_Aa34t-406" vertex="1">
+        <mxCell id="8Zci_N4jVoXhXL_Aa34t-407" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;⑤商品中心&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#000000;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=3;" parent="8Zci_N4jVoXhXL_Aa34t-406" vertex="1">
           <mxGeometry width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="8Zci_N4jVoXhXL_Aa34t-408" value="" style="group" parent="8Zci_N4jVoXhXL_Aa34t-406" vertex="1" connectable="0">
@@ -1660,10 +1660,10 @@
         <mxCell id="8Zci_N4jVoXhXL_Aa34t-552" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;工厂域先行保留&lt;br&gt;（待拆分）&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f2f2;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;verticalAlign=middle;fontColor=default;strokeWidth=3;align=center;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="3595.5" y="900" width="455" height="329" as="geometry" />
         </mxCell>
-        <mxCell id="8Zci_N4jVoXhXL_Aa34t-553" value="" style="group" parent="1" vertex="1" connectable="0">
+        <mxCell id="8Zci_N4jVoXhXL_Aa34t-553" value="" style="group;strokeWidth=3;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="2641" y="1100" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="8Zci_N4jVoXhXL_Aa34t-554" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;④权益中心&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#000000;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" parent="8Zci_N4jVoXhXL_Aa34t-553" vertex="1">
+        <mxCell id="8Zci_N4jVoXhXL_Aa34t-554" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;④权益中心&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#000000;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=3;" parent="8Zci_N4jVoXhXL_Aa34t-553" vertex="1">
           <mxGeometry width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="8Zci_N4jVoXhXL_Aa34t-555" value="" style="group" parent="8Zci_N4jVoXhXL_Aa34t-553" vertex="1" connectable="0">
