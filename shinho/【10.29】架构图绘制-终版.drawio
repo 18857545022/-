@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3">
   <diagram name="第 1 页" id="qQZf3QKmK9aggu2YcYBQ">
-    <mxGraphModel dx="1926" dy="2251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1565" dy="2048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -490,7 +490,7 @@
           <mxGeometry x="1548" y="1120" width="302" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8Zci_N4jVoXhXL_Aa34t-149" value="DCloud - 快销+&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d2d6f9;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2801" y="450" width="629" height="50" as="geometry" />
+          <mxGeometry x="2801" y="450" width="460" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8Zci_N4jVoXhXL_Aa34t-150" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;RDM&lt;br&gt;工厂研发管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d2d6f9;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="3595" y="25" width="140" height="50" as="geometry" />
@@ -2520,9 +2520,6 @@
         </mxCell>
         <mxCell id="8Zci_N4jVoXhXL_Aa34t-652" value="三方功能集成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="8Zci_N4jVoXhXL_Aa34t-650" vertex="1">
           <mxGeometry x="132.16666666666666" width="113.28571428571428" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="nw6pbSm1W82S4Cu-jaaQ-14" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;⑦&lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;库存服务&lt;/b&gt;&lt;/span&gt;&lt;br&gt;dc3-stock" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCF9EA;strokeColor=#4D4D4D;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="3281" y="515" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
