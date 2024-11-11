@@ -1,33 +1,33 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.4">
   <diagram name="第 1 页" id="axY3e9Ge11Wo_r0WgkqD">
-    <mxGraphModel dx="863" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1252" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HFUsBfWWcdetXtISSPww-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="70" width="650" height="390" as="geometry" />
+        <mxCell id="HFUsBfWWcdetXtISSPww-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="70" width="650" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-1" value="经销商系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="HFUsBfWWcdetXtISSPww-1" value="经销商系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="314" y="100" width="100" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-3" value="法大大系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="HFUsBfWWcdetXtISSPww-3" value="法大大系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="540" y="100" width="100" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-5" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="HFUsBfWWcdetXtISSPww-5" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="110" y="100" width="100" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+        <mxCell id="HFUsBfWWcdetXtISSPww-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="165" y="200" as="sourcePoint" />
             <mxPoint x="359" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-11" value="1、发起合同签署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="HFUsBfWWcdetXtISSPww-10">
+        <mxCell id="HFUsBfWWcdetXtISSPww-11" value="1、发起合同签署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="HFUsBfWWcdetXtISSPww-10" vertex="1" connectable="0">
           <mxGeometry x="-0.0756" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+        <mxCell id="HFUsBfWWcdetXtISSPww-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="165" y="322.02857142857135" as="sourcePoint" />
             <mxPoint x="585" y="322.02857142857135" as="targetPoint" />
@@ -37,26 +37,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-27" value="6、点击访问地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="HFUsBfWWcdetXtISSPww-26">
+        <mxCell id="HFUsBfWWcdetXtISSPww-27" value="6、点击访问地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="HFUsBfWWcdetXtISSPww-26" vertex="1" connectable="0">
           <mxGeometry x="-0.0807" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="HFUsBfWWcdetXtISSPww-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="155" y="190" width="10" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+        <mxCell id="HFUsBfWWcdetXtISSPww-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="369" y="254" as="sourcePoint" />
             <mxPoint x="585" y="254" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-16" value="3、甲方（欣和）API签署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="HFUsBfWWcdetXtISSPww-15">
+        <mxCell id="HFUsBfWWcdetXtISSPww-16" value="3、甲方（欣和）API签署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="HFUsBfWWcdetXtISSPww-15" vertex="1" connectable="0">
           <mxGeometry x="-0.3338" relative="1" as="geometry">
             <mxPoint x="29" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="HFUsBfWWcdetXtISSPww-9" target="HFUsBfWWcdetXtISSPww-7">
+        <mxCell id="HFUsBfWWcdetXtISSPww-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="HFUsBfWWcdetXtISSPww-9" target="HFUsBfWWcdetXtISSPww-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="310" y="290" />
@@ -64,15 +64,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-23" value="5、短信发送乙方签署&lt;br&gt;法大大签署页面地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="HFUsBfWWcdetXtISSPww-22">
+        <mxCell id="HFUsBfWWcdetXtISSPww-23" value="5、短信发送乙方签署&lt;br&gt;法大大签署页面地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="HFUsBfWWcdetXtISSPww-22" vertex="1" connectable="0">
           <mxGeometry x="0.3235" y="-1" relative="1" as="geometry">
             <mxPoint x="30" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="HFUsBfWWcdetXtISSPww-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="359" y="190" width="10" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-13" value="2、根据合同模板&amp;amp;业务信息&lt;br&gt;生成待签署合同" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+        <mxCell id="HFUsBfWWcdetXtISSPww-13" value="2、根据合同模板&amp;amp;业务信息&lt;br&gt;生成待签署合同" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" edge="1">
           <mxGeometry x="-0.005" relative="1" as="geometry">
             <mxPoint x="369" y="202" as="sourcePoint" />
             <Array as="points">
@@ -82,18 +82,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+        <mxCell id="HFUsBfWWcdetXtISSPww-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="585" y="282" as="sourcePoint" />
             <mxPoint x="369" y="282" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-21" value="4、返回法大大签署页面地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="HFUsBfWWcdetXtISSPww-20">
+        <mxCell id="HFUsBfWWcdetXtISSPww-21" value="4、返回法大大签署页面地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="HFUsBfWWcdetXtISSPww-20" vertex="1" connectable="0">
           <mxGeometry x="0.3676" y="-2" relative="1" as="geometry">
             <mxPoint x="42" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="HFUsBfWWcdetXtISSPww-25" target="HFUsBfWWcdetXtISSPww-7">
+        <mxCell id="HFUsBfWWcdetXtISSPww-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="HFUsBfWWcdetXtISSPww-25" target="HFUsBfWWcdetXtISSPww-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="270" y="340" />
@@ -101,12 +101,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-29" value="7、跳转签署页面展开乙方签" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="HFUsBfWWcdetXtISSPww-28">
+        <mxCell id="HFUsBfWWcdetXtISSPww-29" value="7、跳转签署页面展开乙方签" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="HFUsBfWWcdetXtISSPww-28" vertex="1" connectable="0">
           <mxGeometry x="0.246" relative="1" as="geometry">
             <mxPoint x="36" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="HFUsBfWWcdetXtISSPww-25" target="HFUsBfWWcdetXtISSPww-32">
+        <mxCell id="HFUsBfWWcdetXtISSPww-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="HFUsBfWWcdetXtISSPww-25" target="HFUsBfWWcdetXtISSPww-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="540" y="400" />
@@ -114,16 +114,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-34" value="8、签署盖章成功，回执通知&lt;br&gt;返回盖章后PDF地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HFUsBfWWcdetXtISSPww-33">
+        <mxCell id="HFUsBfWWcdetXtISSPww-34" value="8、签署盖章成功，回执通知&lt;br&gt;返回盖章后PDF地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HFUsBfWWcdetXtISSPww-33" vertex="1" connectable="0">
           <mxGeometry x="0.2307" y="1" relative="1" as="geometry">
             <mxPoint x="18" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="HFUsBfWWcdetXtISSPww-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="585" y="242" width="10" height="178" as="geometry" />
         </mxCell>
-        <mxCell id="HFUsBfWWcdetXtISSPww-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="HFUsBfWWcdetXtISSPww-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="359" y="370" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m9eIE6ta8eCY2smK5xT3-1" value="【24年欣和电子签使用现状说明】&lt;div&gt;业务场景：1）经销商合同&amp;nbsp; 2）补充协议 3）签收单&amp;nbsp; 4）对账单&amp;nbsp; 5）AIO履约通报&lt;br&gt;24年使用量（截止10月末）：&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;2000+份合同 &amp;amp; 2000+份补充协议&lt;/b&gt;&lt;/font&gt;&lt;br&gt;24年费用：1、&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;固定费：5000元/年&lt;/b&gt;&lt;/font&gt;&amp;nbsp; &amp;nbsp;2、实名认证&amp;amp;电子签费用（截止10月份）：&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;6000元&lt;/b&gt;&lt;/font&gt;&lt;br&gt;25年预算：新增&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;HR员工绩效合约电子签&lt;/font&gt;&lt;/b&gt;业务场景，暂申请3万预算&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="480" width="590" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
