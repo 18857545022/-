@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.4">
   <diagram name="第 1 页" id="OvkUa1DGe1f_tVQWYCts">
-    <mxGraphModel dx="-2002" dy="9481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-3896" dy="8247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,15 +32,15 @@
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-953" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;opacity=30;fillColor=#e1d5e7;strokeColor=#9673a6;dashPattern=8 8;" vertex="1" parent="1">
           <mxGeometry x="6358" y="-6006" width="1470" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="FIgoXLtdEGr-2jaXf1iq-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;glass=0;shadow=0;verticalAlign=middle;fillColor=#e5f6da;strokeColor=#82b366;fillStyle=auto;strokeWidth=2;align=left;" vertex="1" parent="1">
-          <mxGeometry x="6517" y="-4231" width="2425" height="267" as="geometry" />
+        <mxCell id="FIgoXLtdEGr-2jaXf1iq-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;glass=0;shadow=0;verticalAlign=middle;fillColor=#e5f6da;strokeColor=#82b366;fillStyle=auto;strokeWidth=2;align=left;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="6517" y="-4233" width="2425" height="267" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1073" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.463;entryY=-0.019;entryDx=0;entryDy=0;strokeWidth=3;entryPerimeter=0;" edge="1" parent="1" source="FIgoXLtdEGr-2jaXf1iq-3" target="FIgoXLtdEGr-2jaXf1iq-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1074" value="&lt;font style=&quot;font-weight: 700; font-size: 40px;&quot;&gt;④&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-weight: 700; font-size: 32px;&quot;&gt;全局通用能力提取&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1073">
           <mxGeometry x="-0.0305" y="1" relative="1" as="geometry">
-            <mxPoint y="-12" as="offset" />
+            <mxPoint y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-3" value="&lt;span style=&quot;font-size: 50px;&quot;&gt;&lt;b&gt;&amp;nbsp; 现&lt;br&gt;&amp;nbsp; 状&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;glass=0;shadow=0;verticalAlign=middle;fillColor=#FADCDB;strokeColor=#666666;fillStyle=auto;strokeWidth=2;align=left;fontColor=#333333;container=1;" vertex="1" parent="1">
@@ -965,10 +965,10 @@
           <mxGeometry x="75" y="90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-321" value="能力域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4c18f;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="6535" y="-4192" width="2379" height="50" as="geometry" />
+          <mxGeometry x="6535" y="-4194" width="2379" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-322" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6535" y="-4132" width="2379" height="130" as="geometry" />
+          <mxGeometry x="6535" y="-4134" width="2379" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-323" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-322">
           <mxGeometry x="302.0952380952381" width="264.3333333333333" height="130" as="geometry" />
