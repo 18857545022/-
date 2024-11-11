@@ -1,17 +1,27 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.4">
   <diagram name="第 1 页" id="OvkUa1DGe1f_tVQWYCts">
-    <mxGraphModel dx="718" dy="10714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-2002" dy="9481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-963" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;opacity=30;fillColor=#d0cee2;strokeColor=#56517e;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="7670" y="-6120" width="460" height="348" as="geometry" />
+          <mxGeometry x="7841" y="-6000" width="460" height="368" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-82" value="&lt;span style=&quot;font-size: 40px; font-weight: 700;&quot;&gt;&amp;nbsp; &amp;nbsp;生&lt;br&gt;&amp;nbsp; &amp;nbsp;意&lt;br&gt;&amp;nbsp; &amp;nbsp;链&lt;br&gt;&amp;nbsp; &amp;nbsp;路&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;glass=0;shadow=0;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=auto;strokeWidth=2;align=left;" vertex="1" parent="1">
           <mxGeometry x="6320" y="-5490" width="1825" height="221" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-266" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;glass=0;shadow=0;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=auto;strokeWidth=2;align=left;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="8159" y="-5490" width="796" height="221" as="geometry" />
+        </mxCell>
+        <mxCell id="FIgoXLtdEGr-2jaXf1iq-1077" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="FIgoXLtdEGr-2jaXf1iq-971">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8750" y="-5630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIgoXLtdEGr-2jaXf1iq-1079" value="&lt;font style=&quot;font-weight: 700; font-size: 40px;&quot;&gt;③&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;font style=&quot;font-weight: 700;&quot;&gt;企业运营支持&lt;/font&gt;&lt;font style=&quot;font-weight: 700;&quot;&gt;&lt;br&gt;复用业务能力提取&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1077">
+          <mxGeometry x="-0.1822" y="3" relative="1" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-971" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;opacity=30;fillColor=#b0e3e6;strokeColor=#0e8088;dashPattern=8 8;" vertex="1" parent="1">
           <mxGeometry x="8168" y="-5479.5" width="772" height="200" as="geometry" />
@@ -20,17 +30,17 @@
           <mxGeometry x="6530" y="-5479.5" width="1130" height="200" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-953" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;opacity=30;fillColor=#e1d5e7;strokeColor=#9673a6;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="5508" y="-6130" width="1470" height="370" as="geometry" />
+          <mxGeometry x="6358" y="-6006" width="1470" height="370" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;glass=0;shadow=0;verticalAlign=middle;fillColor=#e5f6da;strokeColor=#82b366;fillStyle=auto;strokeWidth=2;align=left;" vertex="1" parent="1">
-          <mxGeometry x="6517" y="-4140" width="2425" height="267" as="geometry" />
+          <mxGeometry x="6517" y="-4231" width="2425" height="267" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1073" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.463;entryY=-0.019;entryDx=0;entryDy=0;strokeWidth=3;entryPerimeter=0;" edge="1" parent="1" source="FIgoXLtdEGr-2jaXf1iq-3" target="FIgoXLtdEGr-2jaXf1iq-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1074" value="&lt;font style=&quot;font-weight: 700; font-size: 40px;&quot;&gt;④&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-weight: 700; font-size: 32px;&quot;&gt;全局通用能力提取&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1073">
           <mxGeometry x="-0.0305" y="1" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
+            <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-3" value="&lt;span style=&quot;font-size: 50px;&quot;&gt;&lt;b&gt;&amp;nbsp; 现&lt;br&gt;&amp;nbsp; 状&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;glass=0;shadow=0;verticalAlign=middle;fillColor=#FADCDB;strokeColor=#666666;fillStyle=auto;strokeWidth=2;align=left;fontColor=#333333;container=1;" vertex="1" parent="1">
@@ -955,10 +965,10 @@
           <mxGeometry x="75" y="90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-321" value="能力域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4c18f;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="6535" y="-4101" width="2379" height="50" as="geometry" />
+          <mxGeometry x="6535" y="-4192" width="2379" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-322" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6535" y="-4041" width="2379" height="130" as="geometry" />
+          <mxGeometry x="6535" y="-4132" width="2379" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-323" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-322">
           <mxGeometry x="302.0952380952381" width="264.3333333333333" height="130" as="geometry" />
@@ -1445,16 +1455,16 @@
             <mxPoint x="6365" y="-5756" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FIgoXLtdEGr-2jaXf1iq-787" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;①&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;消费者/门店/二批商/经销商 复用业务能力提取&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-785">
+        <mxCell id="FIgoXLtdEGr-2jaXf1iq-787" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;①&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;消费者/门店/二批商/经销商 &lt;br&gt;复用业务能力提取&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-785">
           <mxGeometry x="0.1963" y="5" relative="1" as="geometry">
-            <mxPoint x="104" y="-15" as="offset" />
+            <mxPoint x="14" y="14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-797" value="营销域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4c18f;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5530" y="-6112" width="300" height="50" as="geometry" />
+          <mxGeometry x="6380" y="-5988" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-798" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="5530" y="-6052" width="140" height="130" as="geometry" />
+          <mxGeometry x="6380" y="-5928" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-799" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;①活动中心&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=3;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-798">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1481,7 +1491,7 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-807" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="5530" y="-5912" width="140" height="130" as="geometry" />
+          <mxGeometry x="6380" y="-5788" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-808" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;③会员中心&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-807">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1508,10 +1518,10 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-816" value="销售域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4c18f;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5850" y="-6112" width="460" height="50" as="geometry" />
+          <mxGeometry x="6700" y="-5988" width="460" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-817" value="" style="group;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="5850" y="-6052" width="140" height="130" as="geometry" />
+          <mxGeometry x="6700" y="-5928" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-818" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;⑤商品中心&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeWidth=3;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-817">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1538,7 +1548,7 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-826" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6010" y="-6052" width="140" height="130" as="geometry" />
+          <mxGeometry x="6860" y="-5928" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-827" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;⑥&lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;订单中心&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-826">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1565,7 +1575,7 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-835" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6170" y="-6052" width="140" height="130" as="geometry" />
+          <mxGeometry x="7020" y="-5928" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-836" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;⑦库存中心&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-835">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1592,7 +1602,7 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-844" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="5850" y="-5912" width="140" height="130" as="geometry" />
+          <mxGeometry x="6700" y="-5788" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-845" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;⑧支付中心&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-844">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1619,7 +1629,7 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-853" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6010" y="-5912" width="140" height="130" as="geometry" />
+          <mxGeometry x="6860" y="-5788" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-854" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;⑨物流中心&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-853">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1646,7 +1656,7 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-862" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6330" y="-6052" width="140" height="130" as="geometry" />
+          <mxGeometry x="7180" y="-5928" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-863" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;⑪&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;客户中心&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-862">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1673,7 +1683,7 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-871" value="" style="group;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6490" y="-6052" width="140" height="130" as="geometry" />
+          <mxGeometry x="7340" y="-5928" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-872" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;⑫&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;合同中心&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-871">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1700,7 +1710,7 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-880" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6330" y="-5912" width="140" height="130" as="geometry" />
+          <mxGeometry x="7180" y="-5788" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-881" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;⑬&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;费用中心&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-880">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1727,7 +1737,7 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-889" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6173" y="-5912" width="140" height="130" as="geometry" />
+          <mxGeometry x="7023" y="-5788" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-890" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;⑯&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;产品中心&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-889">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1754,7 +1764,7 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-898" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6493" y="-5912" width="140" height="130" as="geometry" />
+          <mxGeometry x="7343" y="-5788" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-899" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;⑰&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;区域中心&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-898">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1781,7 +1791,7 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-907" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6653" y="-5912" width="140" height="130" as="geometry" />
+          <mxGeometry x="7503" y="-5788" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-908" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;㉑&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;审批中心&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-907">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1808,10 +1818,10 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-916" value="运营域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4c18f;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="6330" y="-6112" width="623" height="50" as="geometry" />
+          <mxGeometry x="7180" y="-5988" width="623" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-917" value="" style="group;strokeWidth=3;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="5690" y="-5912" width="140" height="130" as="geometry" />
+          <mxGeometry x="6540" y="-5788" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-918" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;④权益中心&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeWidth=3;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-917">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1838,7 +1848,7 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-926" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6813" y="-6052" width="140" height="130" as="geometry" />
+          <mxGeometry x="7663" y="-5928" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-927" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;㉓&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;问卷中心&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-926">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1865,7 +1875,7 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-935" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6653" y="-6052" width="140" height="130" as="geometry" />
+          <mxGeometry x="7503" y="-5928" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-936" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;㉞&lt;/b&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;会&lt;/b&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;议&lt;/b&gt;&lt;b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;中心&lt;/span&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-935">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1892,7 +1902,7 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-944" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6813" y="-5912" width="140" height="130" as="geometry" />
+          <mxGeometry x="7663" y="-5788" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-945" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;㊱&lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;一物一码&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-944">
           <mxGeometry width="140" height="130" as="geometry" />
@@ -1919,9 +1929,9 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-955" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;工厂域先行保留&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f2f2;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;verticalAlign=middle;fontColor=default;strokeWidth=3;align=center;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="7680" y="-6110" width="440" height="328" as="geometry" />
+          <mxGeometry x="7851" y="-5980" width="440" height="338" as="geometry" />
         </mxCell>
-        <mxCell id="FIgoXLtdEGr-2jaXf1iq-962" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="FIgoXLtdEGr-2jaXf1iq-954" target="FIgoXLtdEGr-2jaXf1iq-963">
+        <mxCell id="FIgoXLtdEGr-2jaXf1iq-962" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.132;entryY=0.994;entryDx=0;entryDy=0;strokeWidth=3;entryPerimeter=0;" edge="1" parent="1" source="FIgoXLtdEGr-2jaXf1iq-954" target="FIgoXLtdEGr-2jaXf1iq-963">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="7902" y="-5760" as="targetPoint" />
           </mxGeometry>
@@ -1931,19 +1941,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FIgoXLtdEGr-2jaXf1iq-1069" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="FIgoXLtdEGr-2jaXf1iq-971" target="FIgoXLtdEGr-2jaXf1iq-1068">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FIgoXLtdEGr-2jaXf1iq-1071" value="&lt;font style=&quot;font-weight: 700; font-size: 40px;&quot;&gt;③&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;font style=&quot;font-weight: 700; font-size: 32px;&quot;&gt;企业运营支持&lt;/font&gt;&lt;font style=&quot;font-weight: 700; font-size: 32px;&quot;&gt;&lt;br&gt;复用业务能力提取&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1069">
-          <mxGeometry x="-0.1969" y="1" relative="1" as="geometry">
-            <mxPoint x="36" y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-789" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;②内容中心&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="5690" y="-6051" width="140" height="130" as="geometry" />
+          <mxGeometry x="6540" y="-5927" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-790" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="5695" y="-6001" width="130" height="70" as="geometry" />
+          <mxGeometry x="6545" y="-5877" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-791" value="" style="group" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-790">
           <mxGeometry width="130" height="30" as="geometry" />
@@ -1964,256 +1966,256 @@
           <mxGeometry x="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1070" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="9322" y="-5558" width="806" height="355.5" as="geometry" />
+          <mxGeometry x="8330" y="-6000" width="806" height="364.5" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1068" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;opacity=30;fillColor=#b0e3e6;strokeColor=#0e8088;dashPattern=8 8;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry width="806" height="355.5" as="geometry" />
+          <mxGeometry width="806" height="364.49999999999994" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-992" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;㉚&lt;/b&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;财&lt;/b&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;务中心&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry x="491" y="75.5" width="140" height="130" as="geometry" />
+          <mxGeometry x="491" y="77.41139240506328" width="140" height="133.2911392405063" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-972" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry x="180" y="75.5" width="140" height="130" as="geometry" />
+          <mxGeometry x="180" y="77.41139240506328" width="140" height="133.2911392405063" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-973" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;⑭&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;任务中心&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-972">
-          <mxGeometry width="140" height="130" as="geometry" />
+          <mxGeometry width="140" height="133.2911392405063" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-974" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-972">
-          <mxGeometry x="5" y="50" width="130" height="70" as="geometry" />
+          <mxGeometry x="5" y="51.26582278481012" width="130" height="71.77215189873417" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-975" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-974">
-          <mxGeometry width="130" height="30" as="geometry" />
+          <mxGeometry width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-976" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;任务创建&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-975">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-977" value="任务下发" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-975">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-978" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-974">
-          <mxGeometry y="40" width="130" height="30" as="geometry" />
+          <mxGeometry y="41.0126582278481" width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-979" value="任务&lt;br&gt;状态更新" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-978">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-980" value="任务&lt;br&gt;结果分析" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-978">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-981" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry x="650" y="215.5" width="140" height="130" as="geometry" />
+          <mxGeometry x="650" y="220.95569620253164" width="140" height="133.2911392405063" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-982" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;span&gt;⑮&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;span data-kimi-id=&quot;1730179878415&quot; data-kimi-disabled=&quot;false&quot; data-kimi-recommend=&quot;false&quot; style=&quot;cursor: pointer; border-bottom: 2px dotted rgb(51, 153, 255);&quot;&gt;人员&lt;/span&gt;中心&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-981">
-          <mxGeometry width="140" height="130" as="geometry" />
+          <mxGeometry width="140" height="133.2911392405063" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-983" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-981">
-          <mxGeometry x="5" y="50" width="130" height="70" as="geometry" />
+          <mxGeometry x="5" y="51.26582278481012" width="130" height="71.77215189873417" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-984" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-983">
-          <mxGeometry width="130" height="30" as="geometry" />
+          <mxGeometry width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-985" value="职能/美顾人员" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-984">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-986" value="人岗" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-984">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-987" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-983">
-          <mxGeometry y="40" width="130" height="30" as="geometry" />
+          <mxGeometry y="41.0126582278481" width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-988" value="组织" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-987">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-989" value="行政" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-987">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-990" value="职能域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4c18f;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry x="331" y="15.5" width="459" height="50" as="geometry" />
+          <mxGeometry x="331" y="15.892405063291138" width="459" height="51.26582278481012" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1000" value="战略决策域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4c18f;strokeColor=#4D4D4D;fontSize=25;fontStyle=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry x="20" y="15.5" width="300" height="50" as="geometry" />
+          <mxGeometry x="20" y="15.892405063291138" width="300" height="51.26582278481012" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1001" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry x="331" y="75.5" width="140" height="130" as="geometry" />
+          <mxGeometry x="331" y="77.41139240506328" width="140" height="133.2911392405063" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1002" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;㉙&lt;/b&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;人力&lt;/b&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;资源&lt;/b&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;中心&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1001">
-          <mxGeometry width="140" height="130" as="geometry" />
+          <mxGeometry width="140" height="133.2911392405063" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1003" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1001">
-          <mxGeometry x="5" y="50" width="130" height="70" as="geometry" />
+          <mxGeometry x="5" y="51.26582278481012" width="130" height="71.77215189873417" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1004" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1003">
-          <mxGeometry width="130" height="30" as="geometry" />
+          <mxGeometry width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1005" value="招聘" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1004">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1006" value="培训" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1004">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1007" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1003">
-          <mxGeometry y="40" width="130" height="30" as="geometry" />
+          <mxGeometry y="41.0126582278481" width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1008" value="入职" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1007">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1009" value="离职" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1007">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1010" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry x="20" y="75.5" width="140" height="270" as="geometry" />
+          <mxGeometry x="20" y="77.41139240506328" width="140" height="276.83544303797464" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1011" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center; font-size: 18px;&quot;&gt;&lt;b&gt;㉗&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 18px; background-color: initial;&quot;&gt;报表中心&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1010">
-          <mxGeometry width="140" height="270" as="geometry" />
+          <mxGeometry width="140" height="276.83544303797464" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1012" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1010">
-          <mxGeometry x="5" y="50" width="130" height="70" as="geometry" />
+          <mxGeometry x="5" y="51.26582278481012" width="130" height="71.77215189873417" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1013" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1012">
-          <mxGeometry width="130" height="30" as="geometry" />
+          <mxGeometry width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1014" value="市场" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1013">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1015" value="行业" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1013">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1016" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1012">
-          <mxGeometry y="40" width="130" height="30" as="geometry" />
+          <mxGeometry y="41.0126582278481" width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1017" value="本品" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1016">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1018" value="竞品" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1016">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1019" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1010">
-          <mxGeometry x="5" y="130" width="130" height="70" as="geometry" />
+          <mxGeometry x="5" y="133.2911392405063" width="130" height="71.77215189873417" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1020" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1019">
-          <mxGeometry width="130" height="30" as="geometry" />
+          <mxGeometry width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1021" value="马上赢" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1020">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1022" value="AC" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1020">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1023" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1019">
-          <mxGeometry y="40" width="130" height="30" as="geometry" />
+          <mxGeometry y="41.0126582278481" width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1024" value="Kantar" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1023">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1025" value="用户分析" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1023">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1026" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1010">
-          <mxGeometry x="5" y="210" width="130" height="50" as="geometry" />
+          <mxGeometry x="5" y="215.31645569620252" width="130" height="51.26582278481012" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1027" value="自诊断报告" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1026">
-          <mxGeometry width="130" height="50" as="geometry" />
+          <mxGeometry width="130" height="51.26582278481012" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1028" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;㉛&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;行&lt;/b&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;政&lt;/b&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;中心&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry x="650" y="75.5" width="140" height="130" as="geometry" />
+          <mxGeometry x="650" y="77.41139240506328" width="140" height="133.2911392405063" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1029" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry x="655" y="125.5" width="130" height="70" as="geometry" />
+          <mxGeometry x="655" y="128.6772151898734" width="130" height="71.77215189873417" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1030" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1029">
-          <mxGeometry width="130" height="30" as="geometry" />
+          <mxGeometry width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1031" value="办公用品" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1030">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1032" value="文件文档" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1030">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1033" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1029">
-          <mxGeometry y="40" width="130" height="30" as="geometry" />
+          <mxGeometry y="41.0126582278481" width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1034" value="公出" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1033">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1035" value="设备维护" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1033">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1036" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry x="490" y="215.5" width="140" height="130" as="geometry" />
+          <mxGeometry x="490" y="220.95569620253164" width="140" height="133.2911392405063" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1037" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;㉜&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;绩&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;效中心&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1036">
-          <mxGeometry x="-160" width="300" height="130" as="geometry" />
+          <mxGeometry x="-160" width="300" height="133.2911392405063" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1038" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1036">
-          <mxGeometry x="5" y="50" width="130" height="70" as="geometry" />
+          <mxGeometry x="5" y="51.26582278481012" width="130" height="71.77215189873417" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1039" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1038">
-          <mxGeometry width="130" height="30" as="geometry" />
+          <mxGeometry width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1040" value="绩效规则" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1039">
-          <mxGeometry width="130" height="30" as="geometry" />
+          <mxGeometry width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1041" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1038">
-          <mxGeometry y="40" width="130" height="30" as="geometry" />
+          <mxGeometry y="41.0126582278481" width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1042" value="薪资计算" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1041">
-          <mxGeometry width="130" height="30" as="geometry" />
+          <mxGeometry width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1043" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry x="336" y="265.5" width="130" height="70" as="geometry" />
+          <mxGeometry x="336" y="272.22151898734177" width="130" height="71.77215189873417" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1044" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1043">
-          <mxGeometry width="130" height="30" as="geometry" />
+          <mxGeometry width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1045" value="&lt;div style=&quot;&quot;&gt;PBC&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1044">
-          <mxGeometry width="130" height="30" as="geometry" />
+          <mxGeometry width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1046" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1043">
-          <mxGeometry y="40" width="130" height="30" as="geometry" />
+          <mxGeometry y="41.0126582278481" width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1047" value="考勤" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1046">
-          <mxGeometry width="130" height="30" as="geometry" />
+          <mxGeometry width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1059" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry x="180" y="215.5" width="140" height="130" as="geometry" />
+          <mxGeometry x="180" y="220.95569620253164" width="140" height="133.2911392405063" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1060" value="&lt;span style=&quot;color: rgb(51, 51, 51); background-color: initial; font-size: 18px;&quot;&gt;&lt;span&gt;㉘&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); text-align: start; background-color: initial; font-size: 18px;&quot;&gt;测&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); text-align: start; background-color: initial; font-size: 18px;&quot;&gt;算中心&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;strokeWidth=2;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1059">
-          <mxGeometry width="140" height="130" as="geometry" />
+          <mxGeometry width="140" height="133.2911392405063" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1061" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1059">
-          <mxGeometry x="5" y="50" width="130" height="70" as="geometry" />
+          <mxGeometry x="5" y="51.26582278481012" width="130" height="71.77215189873417" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1062" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1061">
-          <mxGeometry width="130" height="30" as="geometry" />
+          <mxGeometry width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1063" value="目标" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1062">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1064" value="预算" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1062">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1065" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1061">
-          <mxGeometry y="40" width="130" height="30" as="geometry" />
+          <mxGeometry y="41.0126582278481" width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1066" value="投资" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1065">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-1067" value="档期规划" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1065">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-994" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry x="496" y="125.5" width="130" height="30" as="geometry" />
+          <mxGeometry x="496" y="128.6772151898734" width="130" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-995" value="账务报销" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-994">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-996" value="预算提报" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-994">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-998" value="成本核算" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry x="496" y="165.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="496" y="169.68987341772151" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
         <mxCell id="FIgoXLtdEGr-2jaXf1iq-999" value="资金核对" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="FIgoXLtdEGr-2jaXf1iq-1070">
-          <mxGeometry x="566" y="165.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="566" y="169.68987341772151" width="60" height="30.759493670886073" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
