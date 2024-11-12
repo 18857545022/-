@@ -1,9 +1,129 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.4">
   <diagram name="第 1 页" id="4Q8vVcWcNoxYL4jEGXW3">
-    <mxGraphModel>
+    <mxGraphModel dx="1336" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OEepruc-LKON0XCkcyDV-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" width="1320" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OEepruc-LKON0XCkcyDV-3" target="OEepruc-LKON0XCkcyDV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;周边搜索&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;入参：经纬度+周边+关键字&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;出参：匹配POI数组&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OEepruc-LKON0XCkcyDV-4" target="OEepruc-LKON0XCkcyDV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;T&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OEepruc-LKON0XCkcyDV-7">
+          <mxGeometry x="-0.1127" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OEepruc-LKON0XCkcyDV-4" target="OEepruc-LKON0XCkcyDV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-11" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;F&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OEepruc-LKON0XCkcyDV-10">
+          <mxGeometry x="-0.1697" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-4" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;POI数量=1？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="390" y="180" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OEepruc-LKON0XCkcyDV-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790.0000000000002" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-6" value="&lt;b&gt;同门店相似度Agent&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;入参：匹配POI+原门店信息&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;出参：相似度&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OEepruc-LKON0XCkcyDV-9" target="OEepruc-LKON0XCkcyDV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-9" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;&quot;&gt;最匹配门店数组Agent&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;入参：匹配POI数组+原门店数&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;返回：最匹配POI&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OEepruc-LKON0XCkcyDV-17" target="OEepruc-LKON0XCkcyDV-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-17" value="写入门店表&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;更新门店数据&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="998" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OEepruc-LKON0XCkcyDV-23" target="OEepruc-LKON0XCkcyDV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-25" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;相似度≥95%&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OEepruc-LKON0XCkcyDV-24">
+          <mxGeometry x="-0.0509" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OEepruc-LKON0XCkcyDV-23" target="OEepruc-LKON0XCkcyDV-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="818" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-29" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;相似度≥60% 且 ≤95%&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OEepruc-LKON0XCkcyDV-28">
+          <mxGeometry x="0.3474" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OEepruc-LKON0XCkcyDV-23" target="OEepruc-LKON0XCkcyDV-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="818" y="240" />
+              <mxPoint x="818" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-32" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;相似度≤60%&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OEepruc-LKON0XCkcyDV-31">
+          <mxGeometry x="0.3987" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-23" value="&lt;b&gt;相似度路由&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="768" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-27" value="&lt;b&gt;写入审批表&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;需要主数据人员审核&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="998" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-30" value="&lt;b&gt;写入异常数据表&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;需要人工手动匹配&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="998" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OEepruc-LKON0XCkcyDV-33" target="OEepruc-LKON0XCkcyDV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-33" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;关键词输入提示&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;入参：地址+门店名称拼接字段&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;出参：匹配POI数组&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-35" value="可以引入&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;多个大模型&lt;/font&gt;&lt;/b&gt;，各自给出相似度，取均值" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-36" value="下列相似度值，&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;仅供技术方案参考&lt;/font&gt;&lt;/b&gt;。后续可以基于实际情况进行调整" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;dashed=1;position2=0.44;" vertex="1" parent="1">
+          <mxGeometry x="870" y="80" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OEepruc-LKON0XCkcyDV-38" target="OEepruc-LKON0XCkcyDV-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-38" value="门店A&lt;br&gt;无经纬度" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OEepruc-LKON0XCkcyDV-40" target="OEepruc-LKON0XCkcyDV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-40" value="门店B&lt;br&gt;有经纬度" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-46" value="门店清洗合并&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;根据地图返回门店id，进行欣和业务门店合并清洗&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1198" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OEepruc-LKON0XCkcyDV-49" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;推荐（更精准）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="290" y="170" width="60" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
