@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="HFUsBfWWcdetXtISSPww-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="70" width="650" height="490" as="geometry" />
+          <mxGeometry x="60" y="70" width="650" height="390" as="geometry" />
         </mxCell>
         <mxCell id="HFUsBfWWcdetXtISSPww-1" value="经销商系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="314" y="100" width="100" height="340" as="geometry" />
@@ -124,9 +124,6 @@
         </mxCell>
         <mxCell id="HFUsBfWWcdetXtISSPww-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="359" y="370" width="10" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="m9eIE6ta8eCY2smK5xT3-1" value="【24年欣和电子签使用现状说明】&lt;div&gt;业务场景：1）经销商合同&amp;nbsp; 2）补充协议 3）签收单&amp;nbsp; 4）对账单&amp;nbsp; 5）AIO履约通报&lt;br&gt;24年使用量（截止10月末）：&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;2000+份合同 &amp;amp; 2000+份补充协议&lt;/b&gt;&lt;/font&gt;&lt;br&gt;24年费用：1、&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;固定费：5000元/年&lt;/b&gt;&lt;/font&gt;&amp;nbsp; &amp;nbsp;2、实名认证&amp;amp;电子签费用（截止10月份）：&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;6000元&lt;/b&gt;&lt;/font&gt;&lt;br&gt;25年预算：新增&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;HR员工绩效合约电子签&lt;/font&gt;&lt;/b&gt;业务场景，暂申请3万预算&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="480" width="590" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
