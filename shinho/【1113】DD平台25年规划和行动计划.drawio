@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.4">
   <diagram name="第 1 页" id="FDSKEPHPB6cjSgSbnbu3">
-    <mxGraphModel>
+    <mxGraphModel dx="1870" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UJXPKDok0qpsQIHuP3ux-1" value="统一登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJXPKDok0qpsQIHuP3ux-2" value="权限中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJXPKDok0qpsQIHuP3ux-3" value="文件中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJXPKDok0qpsQIHuP3ux-4" value="消息中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJXPKDok0qpsQIHuP3ux-6" value="人员中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJXPKDok0qpsQIHuP3ux-7" value="门店中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJXPKDok0qpsQIHuP3ux-8" value="产品中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJXPKDok0qpsQIHuP3ux-10" value="通用能力" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="280" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJXPKDok0qpsQIHuP3ux-11" value="主数据服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="220" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJXPKDok0qpsQIHuP3ux-12" value="业务场景" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJXPKDok0qpsQIHuP3ux-13" value="PBC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJXPKDok0qpsQIHuP3ux-14" value="SFA&amp;amp;DSFA融合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJXPKDok0qpsQIHuP3ux-15" value="动态定价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323.5" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
