@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.6">
   <diagram name="第 1 页" id="klDf7FBHb89_ZV_Suv-Q">
-    <mxGraphModel>
+    <mxGraphModel dx="649" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hsga3YyA4KQgEaDTpUSo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hsga3YyA4KQgEaDTpUSo-1" target="hsga3YyA4KQgEaDTpUSo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hsga3YyA4KQgEaDTpUSo-1" value="三年目标&amp;amp;投资&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 4px; background-color: initial;&quot;&gt;输入：产品分层、区域优先级、客户分层、门店分级分类&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 4px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;输出：1000个优选经销商目标以及人员（城市增长官、DOM、DSR）&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;投资&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;资源&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hsga3YyA4KQgEaDTpUSo-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hsga3YyA4KQgEaDTpUSo-2" target="hsga3YyA4KQgEaDTpUSo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hsga3YyA4KQgEaDTpUSo-2" value="DSR档期 - L5/L6计划" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hsga3YyA4KQgEaDTpUSo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hsga3YyA4KQgEaDTpUSo-4" target="hsga3YyA4KQgEaDTpUSo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hsga3YyA4KQgEaDTpUSo-4" value="DSR激励&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hsga3YyA4KQgEaDTpUSo-6" value="DSR档期 - L5/L6计划" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
