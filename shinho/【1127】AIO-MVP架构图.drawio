@@ -1,9 +1,102 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.9.1">
   <diagram name="第 1 页" id="4cSfyPb76T959ORiDmeV">
-    <mxGraphModel>
+    <mxGraphModel dx="-3724" dy="7190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TIpomVPce3DMWdOmMt6m-1" value="&lt;span style=&quot;font-size: 40px; font-weight: 700;&quot;&gt;&amp;nbsp; &amp;nbsp;生&lt;br&gt;&amp;nbsp; &amp;nbsp;意&lt;br&gt;&amp;nbsp; &amp;nbsp;链&lt;br&gt;&amp;nbsp; &amp;nbsp;路&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;glass=0;shadow=0;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=auto;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="6320" y="-5490" width="1825" height="221" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;glass=0;shadow=0;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=auto;strokeWidth=2;align=left;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="8159" y="-5490" width="796" height="221" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;opacity=30;fillColor=#b0e3e6;strokeColor=#0e8088;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="8168" y="-5479.5" width="772" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;opacity=30;fillColor=#e1d5e7;strokeColor=#9673a6;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="6530" y="-5479.5" width="1130" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-5" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;经销商&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="7195" y="-5460" width="461" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-6" value="" style="group;strokeWidth=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="6876" y="-5334.5" width="299" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-7" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;IPO &lt;br&gt;10&lt;/b&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#FFFFFF;strokeColor=#4D4D4D;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-6">
+          <mxGeometry width="49.833333333333336" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-8" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;IPO &lt;br&gt;9&lt;/b&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#FFFFFF;strokeColor=#4D4D4D;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-6">
+          <mxGeometry x="49.833333333333336" width="49.833333333333336" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-9" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;IPO &lt;br&gt;8&lt;/b&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#FFFFFF;strokeColor=#4D4D4D;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-6">
+          <mxGeometry x="99.66666666666667" width="49.833333333333336" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-10" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;IPO &lt;br&gt;7&lt;/b&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#FFFFFF;strokeColor=#4D4D4D;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-6">
+          <mxGeometry x="149.5" width="49.833333333333336" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-11" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;IPO&lt;br&gt;&amp;nbsp;6&lt;/b&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#FFFFFF;strokeColor=#4D4D4D;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-6">
+          <mxGeometry x="199.33333333333334" width="49.833333333333336" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-12" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;IPO &lt;br&gt;5&lt;/b&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#FFFFFF;strokeColor=#4D4D4D;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-6">
+          <mxGeometry x="249.16666666666669" width="49.833333333333336" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="7675" y="-5464.5" width="460" height="194.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;opacity=30;fillColor=#d0cee2;strokeColor=#56517e;dashPattern=8 8;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-13">
+          <mxGeometry x="-5" y="-15.5" width="465" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-15" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;供应链&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-13">
+          <mxGeometry width="456" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-16" value="" style="group;strokeWidth=2;" vertex="1" connectable="0" parent="TIpomVPce3DMWdOmMt6m-13">
+          <mxGeometry y="130" width="456" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-17" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;IPO 1&lt;/b&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#FFFFFF;strokeColor=#4D4D4D;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-16">
+          <mxGeometry width="227.99999999999997" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-18" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;IPO 0&lt;/b&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#FFFFFF;strokeColor=#4D4D4D;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-16">
+          <mxGeometry x="227.99999999999997" width="227.99999999999997" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="6556" y="-5464.5" width="298" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-20" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;消费者&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;fontSize=35;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-19">
+          <mxGeometry width="298" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-21" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;IPO13&lt;/b&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#FFFFFF;strokeColor=#4D4D4D;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-19">
+          <mxGeometry y="130" width="99.33333333333334" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-22" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;IPO12&lt;/b&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#FFFFFF;strokeColor=#4D4D4D;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-19">
+          <mxGeometry x="99.33333333333334" y="130" width="99.33333333333334" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-23" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;IPO11&lt;/b&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#FFFFFF;strokeColor=#4D4D4D;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-19">
+          <mxGeometry x="198.66666666666669" y="130" width="99.33333333333334" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-24" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;企业运营支持&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8168" y="-5464.5" width="757" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="6876" y="-5460" width="299" height="115.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-26" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;门店&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-25">
+          <mxGeometry width="146.16294642857144" height="115.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-27" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;二批商&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-25">
+          <mxGeometry x="152.83705357142858" width="146.16294642857144" height="115.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="7195" y="-5334.5" width="461" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-29" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;IPO 4&lt;/b&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#FFFFFF;strokeColor=#4D4D4D;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-28">
+          <mxGeometry width="153.66666666666666" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-30" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;IPO 3&lt;/b&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#FFFFFF;strokeColor=#4D4D4D;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-28">
+          <mxGeometry x="153.66666666666666" width="153.66666666666666" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIpomVPce3DMWdOmMt6m-31" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;IPO 2&lt;/b&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;fillColor=#FFFFFF;strokeColor=#4D4D4D;strokeWidth=2;" vertex="1" parent="TIpomVPce3DMWdOmMt6m-28">
+          <mxGeometry x="307.3333333333333" width="153.66666666666666" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
